@@ -1,0 +1,1589 @@
+﻿[ +186 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +9 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +133 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +87 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +108 ms] Skipping pub get: version match.
+[ +215 ms] Found plugin share_plus at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\
+[  +18 ms] Found plugin url_launcher_windows at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +7 ms] Found plugin url_launcher_web at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.1\
+[   +4 ms] Found plugin url_launcher_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[   +6 ms] Found plugin path_provider at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +3 ms] Found plugin path_provider_windows at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +8 ms] Found plugin path_provider_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +4 ms] Found plugin path_provider_foundation at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.5.1\
+[   +2 ms] Found plugin path_provider_android at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +4 ms] Found plugin printing at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\
+[  +37 ms] Found plugin flutter_local_notifications at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-18.0.1\
+[   +6 ms] Found plugin flutter_local_notifications_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_linux-5.0.0\
+[ +145 ms] Found plugin share_plus at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\
+[   +5 ms] Found plugin url_launcher_windows at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +4 ms] Found plugin url_launcher_web at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.1\
+[   +2 ms] Found plugin url_launcher_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[   +3 ms] Found plugin path_provider at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +1 ms] Found plugin path_provider_windows at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +3 ms] Found plugin path_provider_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +2 ms] Found plugin path_provider_foundation at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.5.1\
+[   +1 ms] Found plugin path_provider_android at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +3 ms] Found plugin printing at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\
+[  +20 ms] Found plugin flutter_local_notifications at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-18.0.1\
+[   +4 ms] Found plugin flutter_local_notifications_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_linux-5.0.0\
+[  +22 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +89 ms] Found plugin share_plus at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\
+[   +3 ms] Found plugin url_launcher_windows at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +3 ms] Found plugin url_launcher_web at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.1\
+[   +2 ms] Found plugin url_launcher_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[   +2 ms] Found plugin path_provider at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +1 ms] Found plugin path_provider_windows at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +3 ms] Found plugin path_provider_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +2 ms] Found plugin path_provider_foundation at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.5.1\
+[   +1 ms] Found plugin path_provider_android at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\
+[   +2 ms] Found plugin printing at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\
+[  +21 ms] Found plugin flutter_local_notifications at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-18.0.1\
+[   +3 ms] Found plugin flutter_local_notifications_linux at C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_linux-5.0.0\
+[   +7 ms] Generating E:\Vensly projects\agentry\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[   +8 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +6 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[  +11 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +3 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +7 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[ +134 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +152 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.6" 2025-01-21
+           OpenJDK Runtime Environment (build 21.0.6+-13391695-b895.109)
+           OpenJDK 64-Bit Server VM (build 21.0.6+-13391695-b895.109, mixed mode)
+[  +11 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +2 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[ +153 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.6 2025-01-21
+           OpenJDK Runtime Environment (build 21.0.6+-13391695-b895.109)
+           OpenJDK 64-Bit Server VM (build 21.0.6+-13391695-b895.109, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[  +19 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +4 ms] Using gradle from E:\Vensly projects\agentry\android\gradlew.bat.
+[  +86 ms] LocalFile: 'E:\Vensly projects\agentry\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[  +34 ms] LocalFile: 'E:\Vensly projects\agentry\android\settings.gradle.kts' provides AGP version: 8.9.1
+[   +9 ms] Running Gradle task 'assembleRelease'...
+[   +1 ms] executing: [E:\Vensly projects\agentry\android/] E:\Vensly projects\agentry\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzUuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MDVkYjk2ODkwOA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049YThiZmRmYzM5NA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My45LjA= -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[+1120 ms] Initialized native services in: C:\Users\thehe\.gradle\native
+[   +1 ms] Initialized jansi services in: C:\Users\thehe\.gradle\native
+[ +510 ms] The client will now receive all logging from the daemon (pid: 5532). The daemon log file: C:\Users\thehe\.gradle\daemon\8.12\daemon-5532.out.log
+[        ] Starting 2nd build in daemon [uptime: 4 mins 4.888 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 3% of 4 GiB]
+[        ] Using 8 worker leases.
+[        ] Now considering [E:\Vensly projects\agentry\android, C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[  +89 ms] File system watching is active
+[        ] Starting Build
+[   +1 ms] Now considering [C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle, E:\Vensly projects\agentry\android] as hierarchies to watch
+[ +203 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.1.2']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory 'C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[ +100 ms] Resolved plugin [id: 'com.android.application', version: '8.9.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.1.0', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#243,Execution worker,5,main]) started.
+[  +91 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:processResources (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:classes (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#243,Execution worker,5,main]) started.
+[        ] :gradle:jar (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +387 ms] Settings evaluated using settings file 'E:\Vensly projects\agentry\android\settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file 'E:\Vensly projects\agentry\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':flutter_local_notifications', project ':path_provider_android', project ':printing', project ':share_plus']
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file 'E:\Vensly projects\agentry\android\build.gradle.kts'.
+[ +610 ms] > Configure project :app
+[   +2 ms] Evaluating project ':app' using build file 'E:\Vensly projects\agentry\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[   +7 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +9 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[   +2 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[   +6 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\thehe\AppData\Local\Android\sdk
+[ +216 ms] > Configure project :flutter_local_notifications
+[   +1 ms] Evaluating project ':flutter_local_notifications' using build file 'C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-18.0.1\android\build.gradle'.
+[   +1 ms] Using default execution profile
+[ +399 ms] > Configure project :path_provider_android
+[   +2 ms] Evaluating project ':path_provider_android' using build file 'C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\android\build.gradle'.
+[        ] Using default execution profile
+[ +197 ms] > Configure project :printing
+[        ] Evaluating project ':printing' using build file 'C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\android\build.gradle'.
+[        ] Using default execution profile
+[ +294 ms] > Configure project :share_plus
+[        ] Evaluating project ':share_plus' using build file 'C:\Users\thehe\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleRelease'
+[        ] Selected primary task 'assembleRelease' from project :
+[ +714 ms] Tasks to be executed: [task ':app:ReleaseMinSdkCheck', task ':app:compileFlutterBuildRelease', task ':app:packJniLibsflutterBuildRelease', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:configureCMakeRelease[arm64-v8a]', task ':app:buildCMakeRelease[arm64-v8a]', task ':app:configureCMakeRelease[armeabi-v7a]', task ':app:buildCMakeRelease[armeabi-v7a]', task ':app:configureCMakeRelease[x86_64]', task ':app:buildCMakeRelease[x86_64]', task ':app:mergeReleaseJniLibFolders', task ':flutter_local_notifications:preBuild', task ':flutter_local_notifications:preReleaseBuild', task ':flutter_local_notifications:mergeReleaseJniLibFolders', task ':flutter_local_notifications:mergeReleaseNativeLibs', task ':flutter_local_notifications:copyReleaseJniLibsProjectOnly', task ':path_provider_android:preBuild', task ':path_provider_android:preReleaseBuild', task ':path_provider_android:mergeReleaseJniLibFolders', task ':path_provider_android:mergeReleaseNativeLibs', task ':path_provider_android:copyReleaseJniLibsProjectOnly', task ':printing:preBuild', task ':printing:preReleaseBuild', task ':printing:mergeReleaseJniLibFolders', task ':printing:mergeReleaseNativeLibs', task ':printing:copyReleaseJniLibsProjectOnly', task ':share_plus:preBuild', task ':share_plus:preReleaseBuild', task ':share_plus:mergeReleaseJniLibFolders', task ':share_plus:mergeReleaseNativeLibs', task ':share_plus:copyReleaseJniLibsProjectOnly', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':flutter_local_notifications:generateReleaseResValues', task ':flutter_local_notifications:generateReleaseResources', task ':flutter_local_notifications:packageReleaseResources', task ':flutter_local_notifications:parseReleaseLocalResources', task ':flutter_local_notifications:generateReleaseRFile', task ':flutter_local_notifications:javaPreCompileRelease', task ':flutter_local_notifications:compileReleaseJavaWithJavac', task ':flutter_local_notifications:mergeReleaseGeneratedProguardFiles', task ':flutter_local_notifications:exportReleaseConsumerProguardFiles', task ':path_provider_android:generateReleaseResValues', task ':path_provider_android:generateReleaseResources', task ':path_provider_android:packageReleaseResources', task ':path_provider_android:parseReleaseLocalResources', task ':path_provider_android:generateReleaseRFile', task ':path_provider_android:javaPreCompileRelease', task ':path_provider_android:compileReleaseJavaWithJavac', task ':path_provider_android:mergeReleaseGeneratedProguardFiles', task ':path_provider_android:exportReleaseConsumerProguardFiles', task ':printing:generateReleaseResValues', task ':printing:generateReleaseResources', task ':printing:packageReleaseResources', task ':printing:parseReleaseLocalResources', task ':printing:generateReleaseRFile', task ':printing:javaPreCompileRelease', task ':printing:compileReleaseJavaWithJavac', task ':printing:mergeReleaseGeneratedProguardFiles', task ':printing:exportReleaseConsumerProguardFiles', task ':share_plus:checkKotlinGradlePluginConfigurationErrors', task ':share_plus:generateReleaseResValues', task ':share_plus:generateReleaseResources', task ':share_plus:packageReleaseResources', task ':share_plus:parseReleaseLocalResources', task ':share_plus:generateReleaseRFile', task ':share_plus:compileReleaseKotlin', task ':share_plus:javaPreCompileRelease', task ':share_plus:compileReleaseJavaWithJavac', task ':share_plus:mergeReleaseGeneratedProguardFiles', task ':share_plus:exportReleaseConsumerProguardFiles', task ':app:buildKotlinToolingMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':flutter_local_notifications:writeReleaseAarMetadata', task ':path_provider_android:writeReleaseAarMetadata', task ':printing:writeReleaseAarMetadata', task ':share_plus:writeReleaseAarMetadata', task ':app:checkReleaseAarMetadata', task ':app:cleanMergeReleaseAssets', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':flutter_local_notifications:mergeReleaseShaders', task ':flutter_local_notifications:compileReleaseShaders', task ':flutter_local_notifications:generateReleaseAssets', task ':flutter_local_notifications:mergeReleaseAssets', task ':path_provider_android:mergeReleaseShaders', task ':path_provider_android:compileReleaseShaders', task ':path_provider_android:generateReleaseAssets', task ':path_provider_android:mergeReleaseAssets', task ':printing:mergeReleaseShaders', task ':printing:compileReleaseShaders', task ':printing:generateReleaseAssets', task ':printing:mergeReleaseAssets', task ':share_plus:mergeReleaseShaders', task ':share_plus:compileReleaseShaders', task ':share_plus:generateReleaseAssets', task ':share_plus:mergeReleaseAssets', task ':app:mergeReleaseAssets', task ':app:copyFlutterAssetsRelease', task ':app:generateReleaseResValues', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':flutter_local_notifications:extractDeepLinksRelease', task ':flutter_local_notifications:processReleaseManifest', task ':path_provider_android:extractDeepLinksRelease', task ':path_provider_android:processReleaseManifest', task ':printing:extractDeepLinksRelease', task ':printing:processReleaseManifest', task ':share_plus:extractDeepLinksRelease', task ':share_plus:processReleaseManifest', task ':app:processReleaseMainManifest', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':flutter_local_notifications:bundleLibCompileToJarRelease', task ':path_provider_android:bundleLibCompileToJarRelease', task ':printing:bundleLibCompileToJarRelease', task ':share_plus:bundleLibCompileToJarRelease', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':flutter_local_notifications:prepareReleaseArtProfile', task ':path_provider_android:prepareReleaseArtProfile', task ':printing:prepareReleaseArtProfile', task ':share_plus:prepareReleaseArtProfile', task ':app:mergeReleaseArtProfile', task ':flutter_local_notifications:bundleLibRuntimeToJarRelease', task ':path_provider_android:bundleLibRuntimeToJarRelease', task ':printing:bundleLibRuntimeToJarRelease', task ':share_plus:bundleLibRuntimeToJarRelease', task ':app:expandReleaseArtProfileWildcards', task ':app:extractProguardFiles', task ':app:mergeReleaseGeneratedProguardFiles', task ':app:processReleaseJavaRes', task ':flutter_local_notifications:processReleaseJavaRes', task ':path_provider_android:processReleaseJavaRes', task ':printing:processReleaseJavaRes', task ':share_plus:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:mergeReleaseStartupProfile', task ':app:minifyReleaseWithR8', task ':app:compileReleaseArtProfile', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':flutter_local_notifications:createFullJarRelease', task ':flutter_local_notifications:extractProguardFiles', task ':flutter_local_notifications:generateReleaseLintModel', task ':flutter_local_notifications:prepareLintJarForPublish', task ':path_provider_android:createFullJarRelease', task ':path_provider_android:extractProguardFiles', task ':path_provider_android:generateReleaseLintModel', task ':path_provider_android:prepareLintJarForPublish', task ':printing:createFullJarRelease', task ':printing:extractProguardFiles', task ':printing:generateReleaseLintModel', task ':printing:prepareLintJarForPublish', task ':share_plus:createFullJarRelease', task ':share_plus:extractProguardFiles', task ':share_plus:generateReleaseLintModel', task ':share_plus:prepareLintJarForPublish', task ':app:generateReleaseLintVitalReportModel', task ':flutter_local_notifications:stripReleaseDebugSymbols', task ':flutter_local_notifications:copyReleaseJniLibsProjectAndLocalJars', task ':flutter_local_notifications:extractDeepLinksForAarRelease', task ':flutter_local_notifications:extractReleaseAnnotations', task ':flutter_local_notifications:mergeReleaseConsumerProguardFiles', task ':flutter_local_notifications:mergeReleaseJavaResource', task ':flutter_local_notifications:syncReleaseLibJars', task ':flutter_local_notifications:bundleReleaseLocalLintAar', task ':path_provider_android:stripReleaseDebugSymbols', task ':path_provider_android:copyReleaseJniLibsProjectAndLocalJars', task ':path_provider_android:extractDeepLinksForAarRelease', task ':path_provider_android:extractReleaseAnnotations', task ':path_provider_android:mergeReleaseConsumerProguardFiles', task ':path_provider_android:mergeReleaseJavaResource', task ':path_provider_android:syncReleaseLibJars', task ':path_provider_android:bundleReleaseLocalLintAar', task ':printing:stripReleaseDebugSymbols', task ':printing:copyReleaseJniLibsProjectAndLocalJars', task ':printing:extractDeepLinksForAarRelease', task ':printing:extractReleaseAnnotations', task ':printing:mergeReleaseConsumerProguardFiles', task ':printing:mergeReleaseJavaResource', task ':printing:syncReleaseLibJars', task ':printing:bundleReleaseLocalLintAar', task ':share_plus:stripReleaseDebugSymbols', task ':share_plus:copyReleaseJniLibsProjectAndLocalJars', task ':share_plus:extractDeepLinksForAarRelease', task ':share_plus:extractReleaseAnnotations', task ':share_plus:mergeReleaseConsumerProguardFiles', task ':share_plus:mergeReleaseJavaResource', task ':share_plus:syncReleaseLibJars', task ':share_plus:bundleReleaseLocalLintAar', task ':flutter_local_notifications:lintVitalAnalyzeRelease', task ':flutter_local_notifications:writeReleaseLintModelMetadata', task ':path_provider_android:lintVitalAnalyzeRelease', task ':path_provider_android:writeReleaseLintModelMetadata', task ':printing:lintVitalAnalyzeRelease', task ':printing:writeReleaseLintModelMetadata', task ':share_plus:lintVitalAnalyzeRelease', task ':share_plus:writeReleaseLintModelMetadata', task ':app:lintVitalAnalyzeRelease', task ':flutter_local_notifications:generateReleaseLintVitalModel', task ':path_provider_android:generateReleaseLintVitalModel', task ':printing:generateReleaseLintVitalModel', task ':share_plus:generateReleaseLintVitalModel', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:convertShrunkResourcesToBinaryRelease', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':flutter_local_notifications:bundleReleaseAar', task ':flutter_local_notifications:mapReleaseSourceSetPaths', task ':flutter_local_notifications:mergeReleaseResources', task ':flutter_local_notifications:verifyReleaseResources', task ':flutter_local_notifications:assembleRelease', task ':path_provider_android:bundleReleaseAar', task ':path_provider_android:mapReleaseSourceSetPaths', task ':path_provider_android:mergeReleaseResources', task ':path_provider_android:verifyReleaseResources', task ':path_provider_android:assembleRelease', task ':printing:bundleReleaseAar', task ':printing:mapReleaseSourceSetPaths', task ':printing:mergeReleaseResources', task ':printing:verifyReleaseResources', task ':printing:assembleRelease', task ':share_plus:bundleReleaseAar', task ':share_plus:mapReleaseSourceSetPaths', task ':share_plus:mergeReleaseResources', task ':share_plus:verifyReleaseResources', task ':share_plus:assembleRelease']
+[   +3 ms] Tasks that were excluded: []
+[   +1 ms] work action Parameters of FilterShrinkerRulesTransform (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] work action Parameters of ExtractAarTransform (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :app:ReleaseMinSdkCheck (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] :app:ReleaseMinSdkCheck (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:ReleaseMinSdkCheck
+[        ] Caching disabled for task ':app:ReleaseMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:ReleaseMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:compileFlutterBuildRelease (Thread[#246,Execution worker Thread 4,5,main]) started.
+[  +68 ms] :app:compileFlutterBuildRelease (Thread[#246,Execution worker Thread 4,5,main]) started.
+[+1997 ms] > Task :app:compileFlutterBuildRelease
+[        ] Caching disabled for task ':app:compileFlutterBuildRelease' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildRelease' is not up-to-date because:
+[        ]   Value of input property 'verbose' has changed for task ':app:compileFlutterBuildRelease'
+[        ] Starting process 'command 'C:\flutter_windows_3.35.2-stable\flutter\bin\flutter.bat''. Working directory: E:\Vensly projects\agentry Command: C:\flutter_windows_3.35.2-stable\flutter\bin\flutter.bat --verbose assemble --no-version-check --depfile E:\Vensly projects\agentry\build\app\intermediates\flutter\release/flutter_build.d --output E:\Vensly projects\agentry\build\app\intermediates\flutter\release -dTargetFile=lib\main.dart -dTargetPlatform=android -dBuildMode=release -dTrackWidgetCreation=true -dTreeShakeIcons=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuMzUuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MDVkYjk2ODkwOA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049YThiZmRmYzM5NA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My45LjA= -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 android_aot_bundle_release_android-arm android_aot_bundle_release_android-arm64 android_aot_bundle_release_android-x64
+[        ] Successfully started process 'command 'C:\flutter_windows_3.35.2-stable\flutter\bin\flutter.bat''
+[        ] [ +106 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [   +9 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +17 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +99 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +67 ms] Initializing file store
+[        ] [  +44 ms] Done initializing file store
+[ +491 ms] [ +440 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [   +3 ms] Skipping target: dart_build
+[        ] [        ] Skipping target: gen_localizations
+[        ] [   +2 ms] Skipping target: install_code_assets
+[+3400 ms] [+3389 ms] Skipping target: kernel_snapshot_program
+[  +93 ms] [ +101 ms] Skipping target: android_aot_release_android-arm
+[ +199 ms] [ +217 ms] Skipping target: aot_android_asset_bundle
+[ +493 ms] [ +539 ms] Skipping target: android_aot_release_android-arm64
+[ +509 ms] [ +439 ms] Skipping target: android_aot_release_android-x64
+[ +201 ms] [ +238 ms] Skipping target: android_aot_bundle_release_android-arm
+[  +92 ms] [  +59 ms] Skipping target: android_aot_bundle_release_android-arm64
+[   +1 ms] [  +52 ms] Skipping target: android_aot_bundle_release_android-x64
+[        ] [        ] Skipping target: _composite
+[        ] [        ] Persisting file store
+[ +105 ms] [  +30 ms] Done persisting file store
+[        ] [  +61 ms] build succeeded.
+[  +92 ms] [  +45 ms] "flutter assemble" took 5,847ms.
+[ +107 ms] [ +124 ms] Running 1 shutdown hook
+[        ] [   +1 ms] Shutdown hooks complete
+[ +293 ms] [ +268 ms] exiting with code 0
+[        ] Resolve mutations for :app:packJniLibsflutterBuildRelease (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] :app:packJniLibsflutterBuildRelease (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:packJniLibsflutterBuildRelease UP-TO-DATE
+[        ] Caching disabled for task ':app:packJniLibsflutterBuildRelease' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':app:packJniLibsflutterBuildRelease' as it is up-to-date.
+[        ] Resolve mutations for :app:preBuild (Thread[#246,Execution worker Thread 4,5,main]) started.
+[        ] :app:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:preReleaseBuild UP-TO-DATE
+[        ] Skipping task ':app:preReleaseBuild' as it has no actions.
+[        ] Resolve mutations for :app:configureCMakeRelease[arm64-v8a] (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:configureCMakeRelease[arm64-v8a] (Thread[#248,Execution worker Thread 6,5,main]) started.
+[ +104 ms] > Task :app:configureCMakeRelease[arm64-v8a]
+[   +2 ms] Caching disabled for task ':app:configureCMakeRelease[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeRelease[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|arm64-v8a : Start JSON generation. Platform version: 24 min SDK version: arm64-v8a
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|arm64-v8a : JSON 'E:\Vensly projects\agentry\build\.cxx\release\35p72z5j\arm64-v8a\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|arm64-v8a : JSON generation completed without problems
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|arm64-v8a : Writing build model to E:\Vensly projects\agentry\build\app\intermediates\cxx\release\35p72z5j\logs\arm64-v8a\build_model.json
+[        ] Resolve mutations for :app:buildCMakeRelease[arm64-v8a] (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:buildCMakeRelease[arm64-v8a] (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:buildCMakeRelease[arm64-v8a]
+[        ] Caching disabled for task ':app:buildCMakeRelease[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeRelease[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeRelease[armeabi-v7a] (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:configureCMakeRelease[armeabi-v7a] (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:configureCMakeRelease[armeabi-v7a]
+[        ] Caching disabled for task ':app:configureCMakeRelease[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeRelease[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|armeabi-v7a : Start JSON generation. Platform version: 24 min SDK version: armeabi-v7a
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|armeabi-v7a : JSON 'E:\Vensly projects\agentry\build\.cxx\release\35p72z5j\armeabi-v7a\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|armeabi-v7a : JSON generation completed without problems
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|armeabi-v7a : Writing build model to E:\Vensly projects\agentry\build\app\intermediates\cxx\release\35p72z5j\logs\armeabi-v7a\build_model.json
+[        ] Resolve mutations for :app:buildCMakeRelease[armeabi-v7a] (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:buildCMakeRelease[armeabi-v7a] (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:buildCMakeRelease[armeabi-v7a]
+[        ] Caching disabled for task ':app:buildCMakeRelease[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeRelease[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeRelease[x86_64] (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:configureCMakeRelease[x86_64] (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:configureCMakeRelease[x86_64]
+[        ] Caching disabled for task ':app:configureCMakeRelease[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeRelease[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|x86_64 : Start JSON generation. Platform version: 24 min SDK version: x86_64
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|x86_64 : JSON 'E:\Vensly projects\agentry\build\.cxx\release\35p72z5j\x86_64\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|x86_64 : JSON generation completed without problems
+[        ] C/C++: C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt release|x86_64 : Writing build model to E:\Vensly projects\agentry\build\app\intermediates\cxx\release\35p72z5j\logs\x86_64\build_model.json
+[        ] Resolve mutations for :app:buildCMakeRelease[x86_64] (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:buildCMakeRelease[x86_64] (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:buildCMakeRelease[x86_64]
+[        ] Caching disabled for task ':app:buildCMakeRelease[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeRelease[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] :app:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeReleaseJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeReleaseJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:preBuild UP-TO-DATE
+[        ] Skipping task ':flutter_local_notifications:preBuild' as it has no actions.
+[        ] Resolve mutations for :flutter_local_notifications:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:preReleaseBuild UP-TO-DATE
+[        ] Skipping task ':flutter_local_notifications:preReleaseBuild' as it has no actions.
+[        ] Resolve mutations for :flutter_local_notifications:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:mergeReleaseJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:mergeReleaseJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_local_notifications:mergeReleaseJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:mergeReleaseNativeLibs NO-SOURCE
+[        ] Skipping task ':flutter_local_notifications:mergeReleaseNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :flutter_local_notifications:copyReleaseJniLibsProjectOnly (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:copyReleaseJniLibsProjectOnly (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:copyReleaseJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_local_notifications:copyReleaseJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :flutter_local_notifications) (Thread[#243,Execution worker,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :path_provider_android:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :path_provider_android:preBuild UP-TO-DATE
+[        ] Skipping task ':path_provider_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :path_provider_android:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :path_provider_android:preReleaseBuild UP-TO-DATE
+[        ] Skipping task ':path_provider_android:preReleaseBuild' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] :path_provider_android:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :path_provider_android:mergeReleaseJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:mergeReleaseJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeReleaseJniLibFolders' as it is up-to-date.
+[   +1 ms] Resolve mutations for :path_provider_android:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] :path_provider_android:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :path_provider_android:mergeReleaseNativeLibs NO-SOURCE
+[        ] Skipping task ':path_provider_android:mergeReleaseNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :path_provider_android:copyReleaseJniLibsProjectOnly (Thread[#243,Execution worker,5,main]) started.
+[        ] :path_provider_android:copyReleaseJniLibsProjectOnly (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :path_provider_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:copyReleaseJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':path_provider_android:copyReleaseJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :path_provider_android) (Thread[#243,Execution worker,5,main]) started.
+[        ] Resolve mutations for :printing:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :printing:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :printing:preBuild UP-TO-DATE
+[        ] Skipping task ':printing:preBuild' as it has no actions.
+[        ] Resolve mutations for :printing:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :printing:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :printing:preReleaseBuild UP-TO-DATE
+[        ] Skipping task ':printing:preReleaseBuild' as it has no actions.
+[        ] Resolve mutations for :printing:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] :printing:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :printing:mergeReleaseJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':printing:mergeReleaseJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':printing:mergeReleaseJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :printing:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] :printing:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[  +30 ms] > Task :printing:mergeReleaseNativeLibs NO-SOURCE
+[        ] Skipping task ':printing:mergeReleaseNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :printing:copyReleaseJniLibsProjectOnly (Thread[#243,Execution worker,5,main]) started.
+[        ] :printing:copyReleaseJniLibsProjectOnly (Thread[#243,Execution worker,5,main]) started.
+[   +1 ms] > Task :printing:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':printing:copyReleaseJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':printing:copyReleaseJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :printing) (Thread[#243,Execution worker,5,main]) started.
+[        ] Resolve mutations for :share_plus:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :share_plus:preBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :share_plus:preBuild UP-TO-DATE
+[        ] Skipping task ':share_plus:preBuild' as it has no actions.
+[        ] Resolve mutations for :share_plus:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] :share_plus:preReleaseBuild (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :share_plus:preReleaseBuild UP-TO-DATE
+[        ] Skipping task ':share_plus:preReleaseBuild' as it has no actions.
+[        ] Resolve mutations for :share_plus:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] :share_plus:mergeReleaseJniLibFolders (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :share_plus:mergeReleaseJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:mergeReleaseJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':share_plus:mergeReleaseJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :share_plus:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] :share_plus:mergeReleaseNativeLibs (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :share_plus:mergeReleaseNativeLibs NO-SOURCE
+[        ] Skipping task ':share_plus:mergeReleaseNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :share_plus:copyReleaseJniLibsProjectOnly (Thread[#242,included builds,5,main]) started.
+[        ] :share_plus:copyReleaseJniLibsProjectOnly (Thread[#242,included builds,5,main]) started.
+[        ] > Task :share_plus:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:copyReleaseJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':share_plus:copyReleaseJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :share_plus) (Thread[#242,included builds,5,main]) started.
+[        ] Resolve mutations for :app:mergeReleaseNativeLibs (Thread[#242,included builds,5,main]) started.
+[        ] :app:mergeReleaseNativeLibs (Thread[#242,included builds,5,main]) started.
+[  +80 ms] > Task :app:mergeReleaseNativeLibs UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeReleaseNativeLibs' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeReleaseNativeLibs' as it is up-to-date.
+[        ] Resolve mutations for :app:stripReleaseDebugSymbols (Thread[#242,included builds,5,main]) started.
+[        ] :app:stripReleaseDebugSymbols (Thread[#242,included builds,5,main]) started.
+[        ] > Task :app:stripReleaseDebugSymbols UP-TO-DATE
+[        ] Caching disabled for task ':app:stripReleaseDebugSymbols' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:stripReleaseDebugSymbols' as it is up-to-date.
+[        ] Resolve mutations for :app:extractReleaseNativeSymbolTables (Thread[#242,included builds,5,main]) started.
+[        ] :app:extractReleaseNativeSymbolTables (Thread[#242,included builds,5,main]) started.
+[        ] > Task :app:extractReleaseNativeSymbolTables UP-TO-DATE
+[        ] Caching disabled for task ':app:extractReleaseNativeSymbolTables' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractReleaseNativeSymbolTables' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeReleaseNativeDebugMetadata (Thread[#242,included builds,5,main]) started.
+[        ] :app:mergeReleaseNativeDebugMetadata (Thread[#242,included builds,5,main]) started.
+[        ] > Task :app:mergeReleaseNativeDebugMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeReleaseNativeDebugMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeReleaseNativeDebugMetadata' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:generateReleaseResValues (Thread[#242,included builds,5,main]) started.
+[        ] :flutter_local_notifications:generateReleaseResValues (Thread[#242,included builds,5,main]) started.
+[        ] > Task :flutter_local_notifications:generateReleaseResValues UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:generateReleaseResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:generateReleaseResValues' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:generateReleaseResources (Thread[#242,included builds,5,main]) started.
+[        ] :flutter_local_notifications:generateReleaseResources (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:generateReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:generateReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:generateReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:packageReleaseResources (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:packageReleaseResources (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:packageReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:packageReleaseResources' because:
+[   +2 ms]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:packageReleaseResources' as it is up-to-date.
+[        ] work action resolve packageReleaseResources (project :flutter_local_notifications) (Thread[#243,Execution worker,5,main]) started.
+[        ] Resolve mutations for :flutter_local_notifications:parseReleaseLocalResources (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:parseReleaseLocalResources (Thread[#243,Execution worker,5,main]) started.
+[  +86 ms] > Task :flutter_local_notifications:parseReleaseLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:parseReleaseLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:parseReleaseLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:generateReleaseRFile (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:generateReleaseRFile (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:generateReleaseRFile UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:generateReleaseRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:generateReleaseRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :flutter_local_notifications) (Thread[#243,Execution worker,5,main]) started.
+[        ] Resolve mutations for :flutter_local_notifications:javaPreCompileRelease (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:javaPreCompileRelease (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:javaPreCompileRelease UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:javaPreCompileRelease' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:javaPreCompileRelease' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:compileReleaseJavaWithJavac (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:compileReleaseJavaWithJavac (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:compileReleaseJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':flutter_local_notifications:compileReleaseJavaWithJavac'.
+[        ] Caching disabled for task ':flutter_local_notifications:compileReleaseJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_local_notifications:compileReleaseJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :flutter_local_notifications:compileReleaseJavaWithJavac
+[        ] No compile result for :flutter_local_notifications:compileReleaseJavaWithJavac
+[        ] Resolve mutations for :flutter_local_notifications:mergeReleaseGeneratedProguardFiles (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:mergeReleaseGeneratedProguardFiles (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:mergeReleaseGeneratedProguardFiles' because:
+[  +33 ms]   Build cache is disabled
+[   +1 ms]   Simple merging task
+[        ] Skipping task ':flutter_local_notifications:mergeReleaseGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :flutter_local_notifications:exportReleaseConsumerProguardFiles (Thread[#243,Execution worker,5,main]) started.
+[        ] :flutter_local_notifications:exportReleaseConsumerProguardFiles (Thread[#243,Execution worker,5,main]) started.
+[        ] > Task :flutter_local_notifications:exportReleaseConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:exportReleaseConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_local_notifications:exportReleaseConsumerProguardFiles' as it is up-to-date.
+[        ] work action resolve exportReleaseConsumerProguardFiles (project :flutter_local_notifications) (Thread[#243,Execution worker,5,main]) started.
+[        ] FilterShrinkerRulesTransform (Thread[#243,Execution worker,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:generateReleaseResValues (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:generateReleaseResValues (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:generateReleaseResValues UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateReleaseResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateReleaseResValues' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:generateReleaseResources (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:generateReleaseResources (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:generateReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:packageReleaseResources (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:packageReleaseResources (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:packageReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:packageReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:packageReleaseResources' as it is up-to-date.
+[        ] work action resolve packageReleaseResources (project :path_provider_android) (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:parseReleaseLocalResources (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:parseReleaseLocalResources (Thread[#245,Execution worker Thread 3,5,main]) started.
+[  +34 ms] > Task :path_provider_android:parseReleaseLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:parseReleaseLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:parseReleaseLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:generateReleaseRFile (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:generateReleaseRFile (Thread[#245,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:generateReleaseRFile UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateReleaseRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateReleaseRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :path_provider_android) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:javaPreCompileRelease (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :path_provider_android:javaPreCompileRelease (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :path_provider_android:javaPreCompileRelease UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:javaPreCompileRelease' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:javaPreCompileRelease' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:compileReleaseJavaWithJavac (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :path_provider_android:compileReleaseJavaWithJavac (Thread[#247,Execution worker Thread 5,5,main]) started.
+[ +102 ms] > Task :path_provider_android:compileReleaseJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':path_provider_android:compileReleaseJavaWithJavac'.
+[        ] Caching disabled for task ':path_provider_android:compileReleaseJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:compileReleaseJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :path_provider_android:compileReleaseJavaWithJavac
+[        ] No compile result for :path_provider_android:compileReleaseJavaWithJavac
+[        ] Resolve mutations for :path_provider_android:mergeReleaseGeneratedProguardFiles (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :path_provider_android:mergeReleaseGeneratedProguardFiles (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :path_provider_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:mergeReleaseGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeReleaseGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:exportReleaseConsumerProguardFiles (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :path_provider_android:exportReleaseConsumerProguardFiles (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :path_provider_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:exportReleaseConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':path_provider_android:exportReleaseConsumerProguardFiles' as it is up-to-date.
+[        ] work action resolve exportReleaseConsumerProguardFiles (project :path_provider_android) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] FilterShrinkerRulesTransform (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :printing:generateReleaseResValues (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:generateReleaseResValues (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:generateReleaseResValues UP-TO-DATE
+[        ] Caching disabled for task ':printing:generateReleaseResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':printing:generateReleaseResValues' as it is up-to-date.
+[        ] Resolve mutations for :printing:generateReleaseResources (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:generateReleaseResources (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:generateReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':printing:generateReleaseResources' because:
+[   +1 ms]   Build cache is disabled
+[   +1 ms] Skipping task ':printing:generateReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :printing:packageReleaseResources (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:packageReleaseResources (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:packageReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':printing:packageReleaseResources' because:
+[   +1 ms]   Build cache is disabled
+[        ] Skipping task ':printing:packageReleaseResources' as it is up-to-date.
+[        ] work action resolve packageReleaseResources (project :printing) (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :printing:parseReleaseLocalResources (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:parseReleaseLocalResources (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:parseReleaseLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':printing:parseReleaseLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':printing:parseReleaseLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :printing:generateReleaseRFile (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:generateReleaseRFile (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:generateReleaseRFile UP-TO-DATE
+[        ] Caching disabled for task ':printing:generateReleaseRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':printing:generateReleaseRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :printing) (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :printing:javaPreCompileRelease (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:javaPreCompileRelease (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:javaPreCompileRelease UP-TO-DATE
+[        ] Caching disabled for task ':printing:javaPreCompileRelease' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':printing:javaPreCompileRelease' as it is up-to-date.
+[   +1 ms] Resolve mutations for :printing:compileReleaseJavaWithJavac (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:compileReleaseJavaWithJavac (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:compileReleaseJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':printing:compileReleaseJavaWithJavac'.
+[        ] Caching disabled for task ':printing:compileReleaseJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':printing:compileReleaseJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :printing:compileReleaseJavaWithJavac
+[        ] No compile result for :printing:compileReleaseJavaWithJavac
+[        ] Resolve mutations for :printing:mergeReleaseGeneratedProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:mergeReleaseGeneratedProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[  +56 ms] > Task :printing:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':printing:mergeReleaseGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':printing:mergeReleaseGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :printing:exportReleaseConsumerProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :printing:exportReleaseConsumerProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :printing:exportReleaseConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':printing:exportReleaseConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':printing:exportReleaseConsumerProguardFiles' as it is up-to-date.
+[        ] work action resolve exportReleaseConsumerProguardFiles (project :printing) (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] FilterShrinkerRulesTransform (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :share_plus:checkKotlinGradlePluginConfigurationErrors (Thread[#242,included builds,5,main]) started.
+[        ] :share_plus:checkKotlinGradlePluginConfigurationErrors (Thread[#242,included builds,5,main]) started.
+[        ] > Task :share_plus:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':share_plus:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :share_plus:generateReleaseResValues (Thread[#242,included builds,5,main]) started.
+[        ] :share_plus:generateReleaseResValues (Thread[#242,included builds,5,main]) started.
+[        ] > Task :share_plus:generateReleaseResValues UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:generateReleaseResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:generateReleaseResValues' as it is up-to-date.
+[        ] Resolve mutations for :share_plus:generateReleaseResources (Thread[#242,included builds,5,main]) started.
+[        ] :share_plus:generateReleaseResources (Thread[#242,included builds,5,main]) started.
+[        ] > Task :share_plus:generateReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:generateReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:generateReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :share_plus:packageReleaseResources (Thread[#242,included builds,5,main]) started.
+[        ] :share_plus:packageReleaseResources (Thread[#242,included builds,5,main]) started.
+[        ] > Task :share_plus:packageReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:packageReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:packageReleaseResources' as it is up-to-date.
+[        ] work action resolve packageReleaseResources (project :share_plus) (Thread[#242,included builds,5,main]) started.
+[        ] Resolve mutations for :share_plus:parseReleaseLocalResources (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :share_plus:parseReleaseLocalResources (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :share_plus:parseReleaseLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:parseReleaseLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:parseReleaseLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :share_plus:generateReleaseRFile (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :share_plus:generateReleaseRFile (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :share_plus:generateReleaseRFile UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:generateReleaseRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:generateReleaseRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :share_plus) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :share_plus:compileReleaseKotlin (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :share_plus:compileReleaseKotlin (Thread[#247,Execution worker Thread 5,5,main]) started.
+[  +94 ms] > Task :share_plus:compileReleaseKotlin UP-TO-DATE
+[   +2 ms] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :share_plus:compileDebugAndroidTestKotlin
+[        ] Caching disabled for task ':share_plus:compileReleaseKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:compileReleaseKotlin' as it is up-to-date.
+[        ] Resolve mutations for :share_plus:javaPreCompileRelease (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :share_plus:javaPreCompileRelease (Thread[#247,Execution worker Thread 5,5,main]) started.
+[   +1 ms] > Task :share_plus:javaPreCompileRelease UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:javaPreCompileRelease' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':share_plus:javaPreCompileRelease' as it is up-to-date.
+[        ] Resolve mutations for :share_plus:compileReleaseJavaWithJavac (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :share_plus:compileReleaseJavaWithJavac (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :share_plus:compileReleaseJavaWithJavac NO-SOURCE
+[        ] Skipping task ':share_plus:compileReleaseJavaWithJavac' as it has no source files and no previous output files.
+[        ] Resolve mutations for :share_plus:mergeReleaseGeneratedProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :share_plus:mergeReleaseGeneratedProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] > Task :share_plus:mergeReleaseGeneratedProguardFiles
+[        ] Caching disabled for task ':share_plus:mergeReleaseGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':share_plus:mergeReleaseGeneratedProguardFiles' is not up-to-date because:
+[        ]   No history is available.
+[        ] Resolve mutations for :share_plus:exportReleaseConsumerProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] :share_plus:exportReleaseConsumerProguardFiles (Thread[#249,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :app:buildKotlinToolingMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :app:buildKotlinToolingMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[  +79 ms] > Task :app:buildKotlinToolingMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:buildKotlinToolingMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:buildKotlinToolingMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:checkReleaseDuplicateClasses (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :app:checkReleaseDuplicateClasses (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :share_plus:exportReleaseConsumerProguardFiles
+[        ] Caching disabled for task ':share_plus:exportReleaseConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':share_plus:exportReleaseConsumerProguardFiles' is not up-to-date because:
+[        ]   No history is available.
+[        ] > Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+[        ] Caching disabled for task ':app:checkReleaseDuplicateClasses' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkReleaseDuplicateClasses' as it is up-to-date.
+[        ] work action resolve exportReleaseConsumerProguardFiles (project :share_plus) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] FilterShrinkerRulesTransform (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :flutter_local_notifications:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :flutter_local_notifications:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :flutter_local_notifications:writeReleaseAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:writeReleaseAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_local_notifications:writeReleaseAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :flutter_local_notifications) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :path_provider_android:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :path_provider_android:writeReleaseAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:writeReleaseAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':path_provider_android:writeReleaseAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :path_provider_android) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :printing:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :printing:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :printing:writeReleaseAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':printing:writeReleaseAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':printing:writeReleaseAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :printing) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :share_plus:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :share_plus:writeReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] > Task :share_plus:writeReleaseAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':share_plus:writeReleaseAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':share_plus:writeReleaseAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :share_plus) (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:checkReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] :app:checkReleaseAarMetadata (Thread[#247,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:cleanMergeReleaseAssets (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] :app:cleanMergeReleaseAssets (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:cleanMergeReleaseAssets UP-TO-DATE
+[        ] Caching disabled for task ':app:cleanMergeReleaseAssets' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:cleanMergeReleaseAssets' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:mergeReleaseShaders (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] :app:mergeReleaseShaders (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:mergeReleaseShaders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeReleaseShaders' because:
+[        ]   Build cache is disabled
+[   +2 ms]   Simple merging task
+[        ] Skipping task ':app:mergeReleaseShaders' as it is up-to-date.
+[        ] Resolve mutations for :app:compileReleaseShaders (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] :app:compileReleaseShaders (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:compileReleaseShaders NO-SOURCE
+[        ] Skipping task ':app:compileReleaseShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:generateReleaseAssets (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] :app:generateReleaseAssets (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:checkReleaseAarMetadata FAILED
+[        ] Caching disabled for task ':app:checkReleaseAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:checkReleaseAarMetadata' is not up-to-date because:
+[        ]   Task has failed previously.
+[        ] > Task :app:generateReleaseAssets UP-TO-DATE
+[        ] Skipping task ':app:generateReleaseAssets' as it has no actions.
+[        ] Resolve mutations for :flutter_local_notifications:mergeReleaseShaders (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] :flutter_local_notifications:mergeReleaseShaders (Thread[#244,Execution worker Thread 2,5,main]) started.
+[        ] > Task :flutter_local_notifications:mergeReleaseShaders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_local_notifications:mergeReleaseShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_local_notifications:mergeReleaseShaders' as it is up-to-date.
+[  +73 ms] [Incubating] Problems report is available at: file:///E:/Vensly%20projects/agentry/build/reports/problems/problems-report.html
+flutter : [  +14 ms] FAILURE: Build failed with an 
+exception.
+At line:1 char:1
++ flutter build apk --release --target-platform 
+android-arm,android-arm ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([  +14 ms] FA 
+   IL...h an exception.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[   +3 ms] * What went wrong:
+[        ] Execution failed for task 
+':app:checkReleaseAarMetadata'.
+[        ] > A failure occurred while executing com.android
+.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+[        ]    > An issue was found when checking AAR 
+metadata:
+[        ]        1.  Dependency 
+':flutter_local_notifications' requires core library 
+desugaring to be enabled
+[        ]            for :app.
+[        ]            See https://developer.android.com/stu
+dio/write/java8-support.html for more
+[        ]            details.
+[        ] * Try:
+[        ] > Run with --debug option to get more log 
+output.
+[        ] > Run with --scan to get full insights.
+[        ] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.tasks.TaskExecutionException: 
+Execution failed for task ':app:checkReleaseAarMetadata'.
+[        ] 	at org.gradle.api.internal.tasks.execution.Exec
+uteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActio
+nsTaskExecuter.java:130)
+[        ] 	at org.gradle.internal.Try$Failure.ifSuccessful
+OrElse(Try.java:293)
+[        ] 	at org.gradle.api.internal.tasks.execution.Exec
+uteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExe
+cuter.java:128)
+[        ] 	at org.gradle.api.internal.tasks.execution.Exec
+uteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.j
+ava:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.Prob
+lemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTr
+ackingTaskExecuter.java:40)
+[        ] 	at org.gradle.api.internal.tasks.execution.Fina
+lizePropertiesTaskExecuter.execute(FinalizePropertiesTaskEx
+ecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.Reso
+lveTaskExecutionModeExecuter.execute(ResolveTaskExecutionMo
+deExecuter.java:51)
+[        ] 	at org.gradle.api.internal.tasks.execution.Skip
+TaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExec
+uter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.Skip
+OnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.Catc
+hExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.j
+ava:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.j
+ava:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:209)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:204)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:6
+6)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:5
+9)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:166
+)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.call(DefaultBuildOperationRunner.java:53)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52
+)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecu
+tor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskE
+xecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskE
+xecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$BuildOperationAwareExecutionAction.lambda$exec
+ute$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildO
+perationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$BuildOperationAwareExecutionAction.execute(Def
+aultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$BuildOperationAwareExecutionAction.execute(Def
+aultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecuto
+r$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecuto
+r$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolic
+y$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManag
+edExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExe
+cutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExe
+cutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown 
+Source)
+[        ] Caused by: org.gradle.workers.internal.DefaultWo
+rkerExecutor$WorkExecutionException: A failure occurred 
+while executing com.android.build.gradle.internal.tasks.Che
+ckAarMetadataWorkAction
+[        ] 	at org.gradle.workers.internal.DefaultWorkerExe
+cutor$WorkItemExecution.waitForCompletion(DefaultWorkerExec
+utor.java:287)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTra
+cker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWor
+kTracker.java:130)
+[        ] 	at 
+org.gradle.internal.Factories$1.create(Factories.java:31)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseS
+ervice.withoutLocks(DefaultWorkerLeaseService.java:335)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseS
+ervice.withoutLocks(DefaultWorkerLeaseService.java:318)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseS
+ervice.withoutLock(DefaultWorkerLeaseService.java:323)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTra
+cker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.
+java:126)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTra
+cker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.
+java:92)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTra
+cker.waitForAll(DefaultAsyncWorkTracker.java:78)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTra
+cker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+[        ] 	at org.gradle.api.internal.tasks.execution.Task
+Execution$3.run(TaskExecution.java:252)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$1.execute(DefaultBuildOperationRunner.java:2
+9)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$1.execute(DefaultBuildOperationRunner.java:2
+6)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:6
+6)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:5
+9)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:166
+)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:59)
+[   +1 ms] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.run(DefaultBuildOperationRunner.java:47)
+[        ] 	at org.gradle.api.internal.tasks.execution.Task
+Execution.executeAction(TaskExecution.java:229)
+[        ] 	at org.gradle.api.internal.tasks.execution.Task
+Execution.executeActions(TaskExecution.java:212)
+[        ] 	at org.gradle.api.internal.tasks.execution.Task
+Execution.executeWithPreviousOutputFiles(TaskExecution.java
+:195)
+[        ] 	at org.gradle.api.internal.tasks.execution.Task
+Execution.execute(TaskExecution.java:162)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteS
+tep.executeInternal(ExecuteStep.java:105)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteS
+tep.access$000(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteS
+tep$1.call(ExecuteStep.java:59)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteS
+tep$1.call(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:209)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:204)
+[  +12 ms] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:6
+6)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:5
+9)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:166
+)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.call(DefaultBuildOperationRunner.java:53)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteS
+tep.execute(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteS
+tep.execute(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.CancelEx
+ecutionStep.execute(CancelExecutionStep.java:42)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutS
+tep.executeWithoutTimeout(TimeoutStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutS
+tep.execute(TimeoutStep.java:55)
+[        ] 	at org.gradle.internal.execution.steps.PreCreat
+eOutputParentsStep.execute(PreCreateOutputParentsStep.java:
+50)
+[        ] 	at org.gradle.internal.execution.steps.PreCreat
+eOutputParentsStep.execute(PreCreateOutputParentsStep.java:
+28)
+[        ] 	at org.gradle.internal.execution.steps.RemovePr
+eviousOutputsStep.execute(RemovePreviousOutputsStep.java:67
+)
+[  +12 ms] 	at org.gradle.internal.execution.steps.RemovePr
+eviousOutputsStep.execute(RemovePreviousOutputsStep.java:37
+)
+[        ] 	at org.gradle.internal.execution.steps.Broadcas
+tChangingOutputsStep.execute(BroadcastChangingOutputsStep.j
+ava:61)
+[        ] 	at org.gradle.internal.execution.steps.Broadcas
+tChangingOutputsStep.execute(BroadcastChangingOutputsStep.j
+ava:26)
+[        ] 	at org.gradle.internal.execution.steps.CaptureO
+utputsAfterExecutionStep.execute(CaptureOutputsAfterExecuti
+onStep.java:69)
+[        ] 	at org.gradle.internal.execution.steps.CaptureO
+utputsAfterExecutionStep.execute(CaptureOutputsAfterExecuti
+onStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.ResolveI
+nputChangesStep.execute(ResolveInputChangesStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ResolveI
+nputChangesStep.execute(ResolveInputChangesStep.java:29)
+[        ] 	at org.gradle.internal.execution.steps.BuildCac
+heStep.executeWithoutCache(BuildCacheStep.java:189)
+[   +4 ms] 	at org.gradle.internal.execution.steps.BuildCac
+heStep.lambda$execute$1(BuildCacheStep.java:75)
+[        ] 	at 
+org.gradle.internal.Either$Right.fold(Either.java:175)
+[        ] 	at org.gradle.internal.execution.caching.Cachin
+gState.fold(CachingState.java:62)
+[        ] 	at org.gradle.internal.execution.steps.BuildCac
+heStep.execute(BuildCacheStep.java:73)
+[        ] 	at org.gradle.internal.execution.steps.BuildCac
+heStep.execute(BuildCacheStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.StoreExe
+cutionStateStep.execute(StoreExecutionStateStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.StoreExe
+cutionStateStep.execute(StoreExecutionStateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpTo
+DateStep.executeBecause(SkipUpToDateStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpTo
+DateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+[        ] 	at 
+java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpTo
+DateStep.execute(SkipUpToDateStep.java:53)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpTo
+DateStep.execute(SkipUpToDateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.legacy.M
+arkSnapshottingInputsFinishedStep.execute(MarkSnapshottingI
+nputsFinishedStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.legacy.M
+arkSnapshottingInputsFinishedStep.execute(MarkSnapshottingI
+nputsFinishedStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.ResolveI
+ncrementalCachingStateStep.executeDelegate(ResolveIncrement
+alCachingStateStep.java:49)
+[        ] 	at org.gradle.internal.execution.steps.ResolveI
+ncrementalCachingStateStep.executeDelegate(ResolveIncrement
+alCachingStateStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+ResolveCachingStateStep.execute(AbstractResolveCachingState
+Step.java:71)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+ResolveCachingStateStep.execute(AbstractResolveCachingState
+Step.java:39)
+[        ] 	at org.gradle.internal.execution.steps.ResolveC
+hangesStep.execute(ResolveChangesStep.java:65)
+[        ] 	at org.gradle.internal.execution.steps.ResolveC
+hangesStep.execute(ResolveChangesStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.Validate
+Step.execute(ValidateStep.java:107)
+[        ] 	at org.gradle.internal.execution.steps.Validate
+Step.execute(ValidateStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+CaptureStateBeforeExecutionStep.execute(AbstractCaptureStat
+eBeforeExecutionStep.java:64)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+CaptureStateBeforeExecutionStep.execute(AbstractCaptureStat
+eBeforeExecutionStep.java:43)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+SkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEm
+ptyWorkStep.java:125)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+SkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56
+)
+[        ] 	at org.gradle.internal.execution.steps.Abstract
+SkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36
+)
+[        ] 	at org.gradle.internal.execution.steps.legacy.M
+arkSnapshottingInputsStartedStep.execute(MarkSnapshottingIn
+putsStartedStep.java:38)
+[        ] 	at org.gradle.internal.execution.steps.LoadPrev
+iousExecutionStateStep.execute(LoadPreviousExecutionStateSt
+ep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.LoadPrev
+iousExecutionStateStep.execute(LoadPreviousExecutionStateSt
+ep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.HandleSt
+aleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.HandleSt
+aleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+[        ] 	at org.gradle.internal.execution.steps.AssignMu
+tableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceS
+tep.java:35)
+[        ] 	at org.gradle.api.internal.tasks.execution.Task
+Execution$4.withWorkspace(TaskExecution.java:289)
+[        ] 	at org.gradle.internal.execution.steps.AssignMu
+tableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:
+31)
+[   +1 ms] 	at org.gradle.internal.execution.steps.AssignMu
+tableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:
+22)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePi
+pelineStep.execute(ChoosePipelineStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePi
+pelineStep.execute(ChoosePipelineStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteW
+orkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBui
+ldOperationFiringStep.java:67)
+[        ] 	at 
+java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteW
+orkBuildOperationFiringStep.execute(ExecuteWorkBuildOperati
+onFiringStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteW
+orkBuildOperationFiringStep.execute(ExecuteWorkBuildOperati
+onFiringStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.Identity
+CacheStep.execute(IdentityCacheStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.Identity
+CacheStep.execute(IdentityCacheStep.java:34)
+[        ] 	at org.gradle.internal.execution.steps.Identify
+Step.execute(IdentifyStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.Identify
+Step.execute(IdentifyStep.java:35)
+[        ] 	at org.gradle.internal.execution.impl.DefaultEx
+ecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+[        ] 	at org.gradle.api.internal.tasks.execution.Exec
+uteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExe
+cuter.java:127)
+[        ] 	at org.gradle.api.internal.tasks.execution.Exec
+uteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.j
+ava:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.Prob
+lemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTr
+ackingTaskExecuter.java:40)
+[        ] 	at org.gradle.api.internal.tasks.execution.Fina
+lizePropertiesTaskExecuter.execute(FinalizePropertiesTaskEx
+ecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.Reso
+lveTaskExecutionModeExecuter.execute(ResolveTaskExecutionMo
+deExecuter.java:51)
+[        ] 	at org.gradle.api.internal.tasks.execution.Skip
+TaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExec
+uter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.Skip
+OnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.Catc
+hExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.j
+ava:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.j
+ava:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:209)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:204)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:6
+6)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:5
+9)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:166
+)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:59)
+[ +433 ms] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.call(DefaultBuildOperationRunner.java:53)
+[        ] 	at org.gradle.api.internal.tasks.execution.Even
+tFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52
+)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecu
+tor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskE
+xecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskE
+xecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$BuildOperationAwareExecutionAction.lambda$exec
+ute$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildO
+perationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$BuildOperationAwareExecutionAction.execute(Def
+aultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskEx
+ecutionGraph$BuildOperationAwareExecutionAction.execute(Def
+aultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecuto
+r$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecuto
+r$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolic
+y$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManag
+edExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExe
+cutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExe
+cutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown 
+Source)
+[        ] Caused by: java.lang.RuntimeException: An issue 
+was found when checking AAR metadata:
+[        ]   1.  Dependency ':flutter_local_notifications' 
+requires core library desugaring to be enabled
+[   +6 ms] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.12/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 72 actionable tasks: 11 executed, 61 up-to-date
+[        ] Watched directory hierarchies: [C:\flutter_windows_3.35.2-stable\flutter\packages\flutter_tools\gradle]
+[        ]       for :app.
+[        ]       See https://developer.android.com/studio/w
+rite/java8-support.html for more
+[        ]       details.
+[        ] 	at com.android.build.gradle.internal.tasks.Chec
+kAarMetadataWorkAction.execute(CheckAarMetadataTask.kt:288)
+[        ] 	at org.gradle.workers.internal.DefaultWorkerSer
+ver.execute(DefaultWorkerServer.java:63)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorke
+rFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorke
+rFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+[        ] 	at org.gradle.internal.classloader.ClassLoaderU
+tils.executeInClassloader(ClassLoaderUtils.java:100)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorke
+rFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:6
+2)
+[        ] 	at org.gradle.workers.internal.AbstractWorker$1
+.call(AbstractWorker.java:44)
+[        ] 	at org.gradle.workers.internal.AbstractWorker$1
+.call(AbstractWorker.java:41)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:209)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$CallableBuildOperationWorker.execute(Default
+BuildOperationRunner.java:204)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:6
+6)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner$2.execute(DefaultBuildOperationRunner.java:5
+9)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:166
+)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.execute(DefaultBuildOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.DefaultBuildO
+perationRunner.call(DefaultBuildOperationRunner.java:53)
+[        ] 	at org.gradle.workers.internal.AbstractWorker.e
+xecuteWrappedInBuildOperation(AbstractWorker.java:41)
+[   +1 ms] 	at org.gradle.workers.internal.NoIsolationWorke
+rFactory$1.execute(NoIsolationWorkerFactory.java:59)
+[        ] 	at org.gradle.workers.internal.DefaultWorkerExe
+cutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+[        ] 	at 
+java.base/java.util.concurrent.FutureTask.run(Unknown 
+Source)
+[        ] 	at org.gradle.internal.work.DefaultConditionalE
+xecutionQueue$ExecutionRunner.runExecution(DefaultCondition
+alExecutionQueue.java:194)
+[        ] 	at org.gradle.internal.work.DefaultConditionalE
+xecutionQueue$ExecutionRunner.access$700(DefaultConditional
+ExecutionQueue.java:127)
+[        ] 	at org.gradle.internal.work.DefaultConditionalE
+xecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecu
+tionQueue.java:169)
+[        ] 	at 
+org.gradle.internal.Factories$1.create(Factories.java:31)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseS
+ervice.withLocks(DefaultWorkerLeaseService.java:263)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseS
+ervice.runAsWorkerThread(DefaultWorkerLeaseService.java:127
+)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseS
+ervice.runAsWorkerThread(DefaultWorkerLeaseService.java:132
+)
+[        ] 	at org.gradle.internal.work.DefaultConditionalE
+xecutionQueue$ExecutionRunner.runBatch(DefaultConditionalEx
+ecutionQueue.java:164)
+[   +1 ms] 	at org.gradle.internal.work.DefaultConditionalE
+xecutionQueue$ExecutionRunner.run(DefaultConditionalExecuti
+onQueue.java:133)
+[        ] 	at java.base/java.util.concurrent.Executors$Run
+nableAdapter.call(Unknown Source)
+[        ] 	at 
+java.base/java.util.concurrent.FutureTask.run(Unknown 
+Source)
+[        ] 	... 5 more
+[        ] BUILD FAILED in 13s
+[  +18 ms] Running Gradle task 'assembleRelease'... (completed in 14.8s)
+[  +70 ms] "flutter apk" took 16,449ms.
+[ +129 ms] Gradle task assembleRelease failed with exit 
+code 1
+[   +1 ms] 
+           #0      throwToolExit 
+(package:flutter_tools/src/base/common.dart:34:3)
+           #1      AndroidGradleBuilder.buildGradleApp 
+(package:flutter_tools/src/android/gradle.dart:600:7)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk 
+(package:flutter_tools/src/android/gradle.dart:239:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand 
+(package:flutter_tools/src/commands/build_apk.dart:131:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure> (
+package:flutter_tools/src/runner/flutter_command.dart:1581:
+27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand 
+(package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      
+FlutterCommandRunner.runCommand.<anonymous closure> (packag
+e:flutter_tools/src/runner/flutter_command_runner.dart:503:
+9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand (package
+:flutter_tools/src/runner/flutter_command_runner.dart:438:5
+)
+           <asynchronous suspension>
+           #10     run.<anonymous closure>.<anonymous 
+closure> (package:flutter_tools/runner.dart:98:11)
+           <asynchronous suspension>
+           #11     AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #12     main 
+(package:flutter_tools/executable.dart:101:3)
+           <asynchronous suspension>
+
+
+[        ] Running 1 shutdown hook
+[   +3 ms] Shutdown hooks complete
+[ +132 ms] exiting with code 1
