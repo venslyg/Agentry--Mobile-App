@@ -17,20 +17,30 @@ import 'screens/dashboard_screen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Hive.initFlutter();
+  // Handle global errors
+  FlutterError.onError = (details) {
+    FlutterError.presentError(details);
+    debugPrint('Flutter Error: ${details.exception}');
+  };
 
-  Hive.registerAdapter(MaidStatusAdapter());
-  Hive.registerAdapter(SubAgentAdapter());
-  Hive.registerAdapter(HousemaidAdapter());
-  Hive.registerAdapter(TransactionModelAdapter());
-  Hive.registerAdapter(SettingsModelAdapter());
+  try {
+    await Hive.initFlutter();
 
-  await Hive.openBox<SubAgent>('sub_agents');
-  await Hive.openBox<Housemaid>('housemaids');
-  await Hive.openBox<TransactionModel>('transactions');
-  await Hive.openBox<SettingsModel>('settings');
+    Hive.registerAdapter(MaidStatusAdapter());
+    Hive.registerAdapter(SubAgentAdapter());
+    Hive.registerAdapter(HousemaidAdapter());
+    Hive.registerAdapter(TransactionModelAdapter());
+    Hive.registerAdapter(SettingsModelAdapter());
 
-  await NotificationService.init();
+    await Hive.openBox<SubAgent>('sub_agents');
+    await Hive.openBox<Housemaid>('housemaids');
+    await Hive.openBox<TransactionModel>('transactions');
+    await Hive.openBox<SettingsModel>('settings');
+
+    await NotificationService.init();
+  } catch (e) {
+    debugPrint('Initialization Error: $e');
+  }
 
   runApp(const ProviderScope(child: AgentryApp()));
 }

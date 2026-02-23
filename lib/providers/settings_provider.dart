@@ -19,7 +19,7 @@ class SettingsNotifier extends StateNotifier<SettingsModel> {
       // Safety: ensure currencyCode is initialized if loading old data
       // We check for length to be safe against nulls and empty strings
       try {
-        if (saved.currencyCode == null || saved.currencyCode.isEmpty) {
+        if (saved.currencyCode == null || saved.currencyCode!.isEmpty) {
           saved.currencyCode = 'LKR';
         }
       } catch (_) {
