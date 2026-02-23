@@ -23,13 +23,14 @@ class HousemaidAdapter extends TypeAdapter<Housemaid> {
       subAgentId: fields[3] as String,
       totalCommission: fields[4] as double,
       status: fields[5] as MaidStatus,
+      country: fields[6] as String?,
     );
   }
 
   @override
   void write(BinaryWriter writer, Housemaid obj) {
     writer
-      ..writeByte(6)
+      ..writeByte(7)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
@@ -41,7 +42,9 @@ class HousemaidAdapter extends TypeAdapter<Housemaid> {
       ..writeByte(4)
       ..write(obj.totalCommission)
       ..writeByte(5)
-      ..write(obj.status);
+      ..write(obj.status)
+      ..writeByte(6)
+      ..write(obj.country);
   }
 
   @override

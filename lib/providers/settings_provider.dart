@@ -15,7 +15,18 @@ class SettingsNotifier extends StateNotifier<SettingsModel> {
 
   void _load() {
     final saved = _box.get('prefs');
-    if (saved != null) state = saved;
+    if (saved != null) {
+      // Safety: ensure currencyCode is initialized if loading old data
+      // We check for length to be safe against nulls and empty strings
+      try {
+        if (saved.currencyCode == null || saved.currencyCode.isEmpty) {
+          saved.currencyCode = 'LKR';
+        }
+      } catch (_) {
+        saved.currencyCode = 'LKR';
+      }
+      state = saved;
+    }
   }
 
   Future<void> setLanguage(String code) async {
@@ -61,20 +72,20 @@ final currencySymbolProvider = Provider<String>((ref) {
   final code = ref.watch(settingsProvider).currencyCode;
   switch (code) {
     case 'LKR':
-      return 'Rs';
+      return 'Rs. ';
     case 'AED':
-      return 'د.إ';
+      return 'د.إ ';
     case 'SAR':
-      return 'ر.س';
+      return 'ر.س ';
     case 'KWD':
-      return 'د.ك';
+      return 'د.ك ';
     case 'QAR':
-      return 'ر.ق';
+      return 'ر.ق ';
     case 'OMR':
-      return 'ر.ع.';
+      return 'ر.ع. ';
     case 'JOD':
-      return 'د.أ';
+      return 'د.أ ';
     default:
-      return code;
+      return '$code ';
   }
 });

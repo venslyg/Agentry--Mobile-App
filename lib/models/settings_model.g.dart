@@ -19,17 +19,20 @@ class SettingsModelAdapter extends TypeAdapter<SettingsModel> {
     return SettingsModel(
       languageCode: fields[0] as String,
       darkMode: fields[1] as bool,
+      currencyCode: fields[2] as String,
     );
   }
 
   @override
   void write(BinaryWriter writer, SettingsModel obj) {
     writer
-      ..writeByte(2)
+      ..writeByte(3)
       ..writeByte(0)
       ..write(obj.languageCode)
       ..writeByte(1)
-      ..write(obj.darkMode);
+      ..write(obj.darkMode)
+      ..writeByte(2)
+      ..write(obj.currencyCode);
   }
 
   @override
