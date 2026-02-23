@@ -7,6 +7,7 @@ import '../../models/transaction_model.dart';
 import '../../providers/housemaid_provider.dart';
 import '../../providers/sub_agent_provider.dart';
 import '../../providers/transaction_provider.dart';
+import '../../providers/settings_provider.dart';
 import '../../services/pdf_report_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../theme/app_theme.dart';
@@ -23,6 +24,7 @@ class MaidDetailScreen extends ConsumerWidget {
     final maids = ref.watch(housemaidProvider);
     final agents = ref.watch(subAgentProvider);
     final transactions = ref.watch(transactionProvider);
+    final symbol = ref.watch(currencySymbolProvider);
 
     final maid = maids.firstWhere(
       (m) => m.id == maidId,
@@ -83,6 +85,7 @@ class MaidDetailScreen extends ConsumerWidget {
                 maid: maid,
                 agent: agent,
                 transactions: maidTransactions,
+                symbol: symbol,
               );
             },
           ),
@@ -198,17 +201,17 @@ class MaidDetailScreen extends ConsumerWidget {
                 children: [
                   _FinCard(
                       label: l.tr('commission'),
-                      value: '৳${maid.totalCommission.toStringAsFixed(0)}',
+                      value: '$symbol${maid.totalCommission.toStringAsFixed(0)}',
                       color: AppColors.primary),
                   const SizedBox(width: 10),
                   _FinCard(
                       label: l.tr('totalPaid'),
-                      value: '৳${totalPaid.toStringAsFixed(0)}',
+                      value: '$symbol${totalPaid.toStringAsFixed(0)}',
                       color: AppColors.green),
                   const SizedBox(width: 10),
                   _FinCard(
                       label: l.tr('remaining'),
-                      value: '৳${remaining.toStringAsFixed(0)}',
+                      value: '$symbol${remaining.toStringAsFixed(0)}',
                       color: isFullyPaid ? AppColors.green : AppColors.orange),
                 ],
               ),
@@ -282,7 +285,7 @@ class MaidDetailScreen extends ConsumerWidget {
                         builder: (c) => AlertDialog(
                           title: Text(l.tr('deleteTransaction')),
                           content: Text(
-                              'Remove ৳${t.amount.toStringAsFixed(0)} payment?'),
+                              'Remove $symbol${t.amount.toStringAsFixed(0)} payment?'),
                           actions: [
                             TextButton(
                                 onPressed: () => Navigator.pop(c, false),
@@ -325,67 +328,71 @@ class MaidDetailScreen extends ConsumerWidget {
           const SizedBox(width: 8),
           Text(l.tr('logPayment')),
         ]),
-        content: Form(
-          key: formKey,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              // Remaining balance hint
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 12, vertical: 8),
-                decoration: BoxDecoration(
-                  color: AppColors.orangeLight,
-                  borderRadius: BorderRadius.circular(10),
+        content: Consumer(builder: (context, ref, _) {
+          final symbol = ref.watch(currencySymbolProvider);
+          return Form(
+            key: formKey,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Remaining balance hint
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 12, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: AppColors.orangeLight,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Text(
+                    '${l.tr('remaining')}: $symbol${remaining.toStringAsFixed(0)}',
+                    style: const TextStyle(
+                        color: AppColors.orange,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 13),
+                    textAlign: TextAlign.center,
+                  ),
                 ),
-                child: Text(
-                  '${l.tr('remaining')}: ৳${remaining.toStringAsFixed(0)}',
-                  style: const TextStyle(
-                      color: AppColors.orange,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 13),
-                  textAlign: TextAlign.center,
+                const SizedBox(height: 14),
+                TextFormField(
+                  controller: amountCtrl,
+                  keyboardType:
+                      const TextInputType.numberWithOptions(decimal: true),
+                  autofocus: true,
+                  decoration: InputDecoration(
+                    labelText: l.tr('amount'),
+                    prefixText: symbol,
+                    prefixStyle: const TextStyle(
+                        color: AppColors.primary, fontWeight: FontWeight.bold),
+                  ),
+                  validator: (v) {
+                    if (v == null || v.trim().isEmpty) {
+                      return l.tr('amountRequired');
+                    }
+                    final amt = double.tryParse(v.trim());
+                    if (amt == null || amt <= 0) {
+                      return l.tr('validAmount');
+                    }
+                    // Hard validation: block if exceeds remaining
+                    if (amt > remaining + 0.001) {
+                      return '${l.tr('exceedsBalance')} (max $symbol${remaining.toStringAsFixed(0)})';
+                    }
+                    return null;
+                  },
                 ),
-              ),
-              const SizedBox(height: 14),
-              TextFormField(
-                controller: amountCtrl,
-                keyboardType:
-                    const TextInputType.numberWithOptions(decimal: true),
-                autofocus: true,
-                decoration: InputDecoration(
-                  labelText: l.tr('amount'),
-                  prefixIcon: const Icon(Icons.currency_rupee,
-                      color: AppColors.primary),
+                const SizedBox(height: 12),
+                TextFormField(
+                  controller: noteCtrl,
+                  decoration: InputDecoration(
+                    labelText: l.tr('note'),
+                    prefixIcon: const Icon(Icons.note_outlined,
+                        color: AppColors.primary),
+                  ),
                 ),
-                validator: (v) {
-                  if (v == null || v.trim().isEmpty) {
-                    return l.tr('amountRequired');
-                  }
-                  final amt = double.tryParse(v.trim());
-                  if (amt == null || amt <= 0) {
-                    return l.tr('validAmount');
-                  }
-                  // Hard validation: block if exceeds remaining
-                  if (amt > remaining + 0.001) {
-                    return '${l.tr('exceedsBalance')} (max ৳${remaining.toStringAsFixed(0)})';
-                  }
-                  return null;
-                },
-              ),
-              const SizedBox(height: 12),
-              TextFormField(
-                controller: noteCtrl,
-                decoration: InputDecoration(
-                  labelText: l.tr('note'),
-                  prefixIcon: const Icon(Icons.note_outlined,
-                      color: AppColors.primary),
-                ),
-              ),
-            ],
-          ),
-        ),
+              ],
+            ),
+          );
+        }),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),

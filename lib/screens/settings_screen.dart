@@ -118,6 +118,70 @@ class SettingsScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 20),
 
+          // ── Currency ────────────────────────────────────────────────
+          _SectionHeader(title: l.tr('currency')),
+          const SizedBox(height: 8),
+          _SettingsCard(
+            children: [
+              _CurrencyOption(
+                label: 'Sri Lankan Rupee',
+                code: 'LKR',
+                flag: '🇱🇰',
+                selected: settings.currencyCode == 'LKR',
+                onTap: () => notifier.setCurrency('LKR'),
+              ),
+              const Divider(height: 1, indent: 16),
+              _CurrencyOption(
+                label: 'UAE Dirham',
+                code: 'AED',
+                flag: '🇦🇪',
+                selected: settings.currencyCode == 'AED',
+                onTap: () => notifier.setCurrency('AED'),
+              ),
+              const Divider(height: 1, indent: 16),
+              _CurrencyOption(
+                label: 'Saudi Riyal',
+                code: 'SAR',
+                flag: '🇸🇦',
+                selected: settings.currencyCode == 'SAR',
+                onTap: () => notifier.setCurrency('SAR'),
+              ),
+              const Divider(height: 1, indent: 16),
+              _CurrencyOption(
+                label: 'Kuwaiti Dinar',
+                code: 'KWD',
+                flag: '🇰🇼',
+                selected: settings.currencyCode == 'KWD',
+                onTap: () => notifier.setCurrency('KWD'),
+              ),
+              const Divider(height: 1, indent: 16),
+              _CurrencyOption(
+                label: 'Qatari Riyal',
+                code: 'QAR',
+                flag: '🇶🇦',
+                selected: settings.currencyCode == 'QAR',
+                onTap: () => notifier.setCurrency('QAR'),
+              ),
+              const Divider(height: 1, indent: 16),
+              _CurrencyOption(
+                label: 'Omani Rial',
+                code: 'OMR',
+                flag: '🇴🇲',
+                selected: settings.currencyCode == 'OMR',
+                onTap: () => notifier.setCurrency('OMR'),
+              ),
+              const Divider(height: 1, indent: 16),
+              _CurrencyOption(
+                label: 'Jordanian Dinar',
+                code: 'JOD',
+                flag: '🇯🇴',
+                selected: settings.currencyCode == 'JOD',
+                onTap: () => notifier.setCurrency('JOD'),
+              ),
+            ],
+          ),
+          const SizedBox(height: 20),
+
           // ── Backup ──────────────────────────────────────────────────
           _SectionHeader(title: l.tr('backup')),
           const SizedBox(height: 8),
@@ -242,6 +306,44 @@ class _LangOption extends StatelessWidget {
           ? const Icon(Icons.check_circle_rounded,
               color: AppColors.primary)
           : Icon(Icons.circle_outlined, color: Colors.grey[300]),
+    );
+  }
+}
+
+class _CurrencyOption extends StatelessWidget {
+  final String label;
+  final String code;
+  final String flag;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _CurrencyOption({
+    required this.label,
+    required this.code,
+    required this.flag,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      onTap: onTap,
+      leading: Container(
+        width: 32,
+        height: 32,
+        alignment: Alignment.center,
+        child: Text(flag, style: const TextStyle(fontSize: 22)),
+      ),
+      title: Text(label,
+          style: const TextStyle(
+              fontWeight: FontWeight.w600, fontSize: 14)),
+      subtitle: Text(code,
+          style: TextStyle(fontSize: 11, color: Colors.grey[500])),
+      trailing: selected
+          ? const Icon(Icons.check_circle_rounded,
+              color: AppColors.primary, size: 20)
+          : Icon(Icons.circle_outlined, color: Colors.grey[300], size: 20),
     );
   }
 }

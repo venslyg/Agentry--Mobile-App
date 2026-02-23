@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../providers/sub_agent_provider.dart';
 import '../../providers/housemaid_provider.dart';
 import '../../providers/transaction_provider.dart';
+import '../../providers/settings_provider.dart';
 import '../../models/sub_agent.dart';
 import '../../services/pdf_report_service.dart';
 import '../../l10n/app_localizations.dart';
@@ -19,6 +20,7 @@ class SubAgentListScreen extends ConsumerWidget {
     final agents = ref.watch(subAgentProvider);
     final maids = ref.watch(housemaidProvider);
     final transactions = ref.watch(transactionProvider);
+    final symbol = ref.watch(currencySymbolProvider);
 
     return Scaffold(
       appBar: AppBar(title: Text(l.tr('subAgents'))),
@@ -52,6 +54,7 @@ class SubAgentListScreen extends ConsumerWidget {
                   maidCount: agentMaids.length,
                   totalPaid: agentPaid,
                   totalPending: agentPending,
+                  symbol: symbol,
                   onTap: () => Navigator.push(ctx,
                       MaterialPageRoute(
                           builder: (_) => HousemaidListScreen(
@@ -70,6 +73,7 @@ class SubAgentListScreen extends ConsumerWidget {
                       agent: agent,
                       maids: agentMaids,
                       allTransactions: agentTxs,
+                      symbol: symbol,
                     );
                   },
                   onDelete: () async {
@@ -129,6 +133,7 @@ class _AgentCard extends StatelessWidget {
   final int maidCount;
   final double totalPaid;
   final double totalPending;
+  final String symbol;
   final VoidCallback onTap;
   final VoidCallback onEdit;
   final VoidCallback onDelete;
@@ -139,6 +144,7 @@ class _AgentCard extends StatelessWidget {
     required this.maidCount,
     required this.totalPaid,
     required this.totalPending,
+    required this.symbol,
     required this.onTap,
     required this.onEdit,
     required this.onDelete,
@@ -245,12 +251,12 @@ class _AgentCard extends StatelessWidget {
                 const SizedBox(width: 16),
                 _Stat(
                     label: 'Paid',
-                    value: '৳${totalPaid.toStringAsFixed(0)}',
+                    value: '$symbol${totalPaid.toStringAsFixed(0)}',
                     color: AppColors.green),
                 const SizedBox(width: 16),
                 _Stat(
                     label: 'Pending',
-                    value: '৳${totalPending.toStringAsFixed(0)}',
+                    value: '$symbol${totalPending.toStringAsFixed(0)}',
                     color: AppColors.orange),
               ]),
             ],

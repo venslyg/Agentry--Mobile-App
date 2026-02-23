@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/sub_agent_provider.dart';
 import '../providers/housemaid_provider.dart';
 import '../providers/transaction_provider.dart';
+import '../providers/settings_provider.dart';
 import '../theme/app_theme.dart';
 import '../l10n/app_localizations.dart';
 import '../widgets/summary_card.dart';
@@ -19,6 +20,7 @@ class DashboardScreen extends ConsumerWidget {
     final agents = ref.watch(subAgentProvider);
     final maids = ref.watch(housemaidProvider);
     final transactions = ref.watch(transactionProvider);
+    final symbol = ref.watch(currencySymbolProvider);
 
     final totalPaid =
         transactions.fold<double>(0, (sum, t) => sum + t.amount);
@@ -104,14 +106,14 @@ class DashboardScreen extends ConsumerWidget {
                 ),
                 SummaryCard(
                   label: l.tr('totalPaid'),
-                  value: '৳${totalPaid.toStringAsFixed(0)}',
+                  value: '$symbol${totalPaid.toStringAsFixed(0)}',
                   icon: Icons.check_circle_rounded,
                   color: AppColors.green,
                   bgColor: AppColors.greenLight,
                 ),
                 SummaryCard(
                   label: l.tr('totalPending'),
-                  value: '৳${totalPending.toStringAsFixed(0)}',
+                  value: '$symbol${totalPending.toStringAsFixed(0)}',
                   icon: Icons.pending_actions_rounded,
                   color: AppColors.orange,
                   bgColor: AppColors.orangeLight,
@@ -236,7 +238,7 @@ class DashboardScreen extends ConsumerWidget {
                               ),
                               const SizedBox(width: 12),
                               Text(
-                                '৳${item.pending.toStringAsFixed(0)}',
+                                '$symbol${item.pending.toStringAsFixed(0)}',
                                 style: const TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: AppColors.orange,

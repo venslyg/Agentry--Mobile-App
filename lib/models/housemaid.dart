@@ -23,6 +23,9 @@ class Housemaid extends HiveObject {
   @HiveField(5)
   MaidStatus status;
 
+  @HiveField(6)
+  String? country;
+
   Housemaid({
     required this.id,
     required this.name,
@@ -30,5 +33,6 @@ class Housemaid extends HiveObject {
     required this.subAgentId,
     required this.totalCommission,
     this.status = MaidStatus.atAgency,
+    this.country,
   });
 }

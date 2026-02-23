@@ -16,6 +16,7 @@ class PdfReportService {
     required Housemaid maid,
     required SubAgent agent,
     required List<TransactionModel> transactions,
+    required String symbol,
   }) async {
     final pdf = pw.Document();
     final totalPaid =
@@ -35,11 +36,12 @@ class PdfReportService {
             commission: maid.totalCommission,
             paid: totalPaid,
             remaining: remaining,
+            symbol: symbol,
           ),
           pw.SizedBox(height: 16),
-          _buildTransactionTable(transactions),
+          _buildTransactionTable(transactions, symbol),
           pw.SizedBox(height: 20),
-          _buildBalanceBanner(remaining),
+          _buildBalanceBanner(remaining, symbol),
         ],
       ),
     );
@@ -54,6 +56,7 @@ class PdfReportService {
     required SubAgent agent,
     required List<Housemaid> maids,
     required List<TransactionModel> allTransactions,
+    required String symbol,
   }) async {
     final pdf = pw.Document();
 
@@ -80,6 +83,7 @@ class PdfReportService {
             commission: totalCommission,
             paid: totalPaid,
             remaining: totalPending,
+            symbol: symbol,
           ),
           pw.SizedBox(height: 16),
           ...maids.map((m) {
@@ -113,20 +117,20 @@ class PdfReportService {
                   ),
                 ),
                 pw.SizedBox(height: 4),
-                _buildTransactionTable(mTxs),
+                _buildTransactionTable(mTxs, symbol),
                 pw.Row(
                   mainAxisAlignment:
                       pw.MainAxisAlignment.spaceBetween,
                   children: [
                     pw.Text(
-                        'Remaining: ৳${_moneyFmt.format(mRemaining)}',
+                        'Remaining: $symbol${_moneyFmt.format(mRemaining)}',
                         style: pw.TextStyle(
                             fontWeight: pw.FontWeight.bold,
                             color: mRemaining > 0
                                 ? PdfColors.orange700
                                 : PdfColors.green700)),
                     pw.Text(
-                        'Paid: ৳${_moneyFmt.format(mPaid)}',
+                        'Paid: $symbol${_moneyFmt.format(mPaid)}',
                         style: pw.TextStyle(
                             fontWeight: pw.FontWeight.bold,
                             color: PdfColors.green700)),
@@ -138,7 +142,7 @@ class PdfReportService {
               ],
             );
           }),
-          _buildBalanceBanner(totalPending),
+          _buildBalanceBanner(totalPending, symbol),
         ],
       ),
     );
@@ -240,20 +244,21 @@ class PdfReportService {
     required double commission,
     required double paid,
     required double remaining,
+    required String symbol,
   }) {
     return pw.Row(
       mainAxisAlignment: pw.MainAxisAlignment.spaceAround,
       children: [
-        _finCard('Commission', commission, PdfColors.green800),
-        _finCard('Total Paid', paid, PdfColors.green600),
+        _finCard('Commission', commission, PdfColors.green800, symbol),
+        _finCard('Total Paid', paid, PdfColors.green600, symbol),
         _finCard('Outstanding', remaining,
-            remaining > 0 ? PdfColors.orange700 : PdfColors.green700),
+            remaining > 0 ? PdfColors.orange700 : PdfColors.green700, symbol),
       ],
     );
   }
 
   static pw.Widget _finCard(
-      String label, double amount, PdfColor color) {
+      String label, double amount, PdfColor color, String symbol) {
     return pw.Container(
       padding: const pw.EdgeInsets.all(10),
       decoration: pw.BoxDecoration(
@@ -267,7 +272,7 @@ class PdfReportService {
               style: const pw.TextStyle(
                   fontSize: 9, color: PdfColors.grey600)),
           pw.SizedBox(height: 4),
-          pw.Text('৳${_moneyFmt.format(amount)}',
+          pw.Text('$symbol${_moneyFmt.format(amount)}',
               style: pw.TextStyle(
                   fontSize: 14,
                   fontWeight: pw.FontWeight.bold,
@@ -278,7 +283,7 @@ class PdfReportService {
   }
 
   static pw.Widget _buildTransactionTable(
-      List<TransactionModel> transactions) {
+      List<TransactionModel> transactions, String symbol) {
     if (transactions.isEmpty) {
       return pw.Text('No transactions recorded.',
           style: const pw.TextStyle(
@@ -304,14 +309,14 @@ class PdfReportService {
           (t) => pw.TableRow(children: [
             _tableCell(t.note.isEmpty ? 'Payment' : t.note),
             _tableCell(_fmt.format(t.date)),
-            _tableCell('৳${_moneyFmt.format(t.amount)}'),
+            _tableCell('$symbol${_moneyFmt.format(t.amount)}'),
           ]),
         ),
       ],
     );
   }
 
-  static pw.Widget _buildBalanceBanner(double remaining) {
+  static pw.Widget _buildBalanceBanner(double remaining, String symbol) {
     final fullyPaid = remaining <= 0.001;
     return pw.Container(
       width: double.infinity,
@@ -334,7 +339,7 @@ class PdfReportService {
             ),
           ),
           pw.Text(
-            fullyPaid ? '৳0.00' : '৳${_moneyFmt.format(remaining)}',
+            fullyPaid ? '$symbol 0.00' : '$symbol${_moneyFmt.format(remaining)}',
             style: pw.TextStyle(
               fontWeight: pw.FontWeight.bold,
               fontSize: 16,

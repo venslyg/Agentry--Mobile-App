@@ -19,12 +19,29 @@ class SettingsNotifier extends StateNotifier<SettingsModel> {
   }
 
   Future<void> setLanguage(String code) async {
-    state = SettingsModel(languageCode: code, darkMode: state.darkMode);
+    state = SettingsModel(
+      languageCode: code,
+      darkMode: state.darkMode,
+      currencyCode: state.currencyCode,
+    );
     await _box.put('prefs', state);
   }
 
   Future<void> setDarkMode(bool dark) async {
-    state = SettingsModel(languageCode: state.languageCode, darkMode: dark);
+    state = SettingsModel(
+      languageCode: state.languageCode,
+      darkMode: dark,
+      currencyCode: state.currencyCode,
+    );
+    await _box.put('prefs', state);
+  }
+
+  Future<void> setCurrency(String code) async {
+    state = SettingsModel(
+      languageCode: state.languageCode,
+      darkMode: state.darkMode,
+      currencyCode: code,
+    );
     await _box.put('prefs', state);
   }
 }
@@ -38,4 +55,26 @@ final settingsProvider =
 final localeProvider = Provider<Locale>((ref) {
   final code = ref.watch(settingsProvider).languageCode;
   return Locale(code);
+});
+
+final currencySymbolProvider = Provider<String>((ref) {
+  final code = ref.watch(settingsProvider).currencyCode;
+  switch (code) {
+    case 'LKR':
+      return 'Rs';
+    case 'AED':
+      return 'د.إ';
+    case 'SAR':
+      return 'ر.س';
+    case 'KWD':
+      return 'د.ك';
+    case 'QAR':
+      return 'ر.ق';
+    case 'OMR':
+      return 'ر.ع.';
+    case 'JOD':
+      return 'د.أ';
+    default:
+      return code;
+  }
 });

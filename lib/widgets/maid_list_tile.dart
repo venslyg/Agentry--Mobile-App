@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/housemaid.dart';
 import '../models/maid_status.dart';
+import '../providers/settings_provider.dart';
 import '../theme/app_theme.dart';
 
-class MaidListTile extends StatelessWidget {
+class MaidListTile extends ConsumerWidget {
   final Housemaid maid;
   final double remaining;
   final VoidCallback onTap;
@@ -15,7 +17,7 @@ class MaidListTile extends StatelessWidget {
     required this.onTap,
   });
 
-  Color get _statusColor {
+  Color _statusColor(BuildContext context) {
     switch (maid.status) {
       case MaidStatus.atAgency:
         return AppColors.atAgency;
@@ -29,7 +31,10 @@ class MaidListTile extends StatelessWidget {
   bool get _isFullyPaid => remaining <= 0.001;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final symbol = ref.watch(currencySymbolProvider);
+    final statusColor = _statusColor(context);
+
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
       decoration: BoxDecoration(
@@ -51,11 +56,11 @@ class MaidListTile extends StatelessWidget {
             const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         onTap: onTap,
         leading: CircleAvatar(
-          backgroundColor: _statusColor.withValues(alpha: 0.15),
+          backgroundColor: statusColor.withValues(alpha: 0.15),
           child: Text(
             maid.name.isNotEmpty ? maid.name[0].toUpperCase() : '?',
             style: TextStyle(
-              color: _statusColor,
+              color: statusColor,
               fontWeight: FontWeight.bold,
               fontSize: 18,
             ),
@@ -106,13 +111,13 @@ class MaidListTile extends StatelessWidget {
               padding: const EdgeInsets.symmetric(
                   horizontal: 8, vertical: 3),
               decoration: BoxDecoration(
-                color: _statusColor.withValues(alpha: 0.12),
+                color: statusColor.withValues(alpha: 0.12),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
                 maid.status.label,
                 style: TextStyle(
-                  color: _statusColor,
+                  color: statusColor,
                   fontSize: 11,
                   fontWeight: FontWeight.w600,
                 ),
@@ -128,7 +133,7 @@ class MaidListTile extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 11, color: Colors.grey[500])),
             Text(
-              '৳${remaining.toStringAsFixed(0)}',
+              '$symbol${remaining.toStringAsFixed(0)}',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 15,

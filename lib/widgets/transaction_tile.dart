@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 import '../models/transaction_model.dart';
+import '../providers/settings_provider.dart';
 import '../theme/app_theme.dart';
 
-class TransactionTile extends StatelessWidget {
+class TransactionTile extends ConsumerWidget {
   final TransactionModel transaction;
   final VoidCallback? onDelete;
 
@@ -14,7 +16,8 @@ class TransactionTile extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final symbol = ref.watch(currencySymbolProvider);
     final dateStr = DateFormat('dd MMM yyyy').format(transaction.date);
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 5),
@@ -54,7 +57,7 @@ class TransactionTile extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              '-৳${transaction.amount.toStringAsFixed(0)}',
+              '-$symbol${transaction.amount.toStringAsFixed(0)}',
               style: const TextStyle(
                 color: AppColors.green,
                 fontWeight: FontWeight.bold,
