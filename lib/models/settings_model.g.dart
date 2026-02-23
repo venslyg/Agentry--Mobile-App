@@ -19,7 +19,7 @@ class SettingsModelAdapter extends TypeAdapter<SettingsModel> {
     return SettingsModel(
       languageCode: fields[0] as String,
       darkMode: fields[1] as bool,
-      currencyCode: fields[2] as String,
+      currencyCode: fields[2] as String?,
     );
   }
 

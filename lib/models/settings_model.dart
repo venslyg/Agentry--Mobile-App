@@ -11,7 +11,7 @@ class SettingsModel extends HiveObject {
   bool darkMode;
 
   @HiveField(2)
-  String currencyCode;
+  String? currencyCode;
 
   SettingsModel({
     this.languageCode = 'en',

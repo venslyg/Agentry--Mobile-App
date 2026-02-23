@@ -12,7 +12,7 @@ class NotificationService {
 
   static Future<void> init() async {
     if (!_supported) return;
-    const android = AndroidInitializationSettings('@mipmap/ic_launcher');
+    const android = AndroidInitializationSettings('@mipmap/launcher_icon');
     const ios = DarwinInitializationSettings(
       requestAlertPermission: true,
       requestBadgePermission: true,
@@ -34,7 +34,7 @@ class NotificationService {
       channelDescription: 'Payment and status notifications',
       importance: Importance.high,
       priority: Priority.high,
-      icon: '@mipmap/ic_launcher',
+      icon: '@mipmap/launcher_icon',
     );
     const iosDetails = DarwinNotificationDetails();
     const details =
