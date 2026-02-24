@@ -1,39 +1,37 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 import '../models/housemaid.dart';
 
 class HousemaidNotifier extends StateNotifier<List<Housemaid>> {
   HousemaidNotifier() : super([]) {
-    _loadFromHive();
+    _listenToFirestore();
   }
 
-  static const String _boxName = 'housemaids';
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  Box<Housemaid> get _box => Hive.box<Housemaid>(_boxName);
-
-  void _loadFromHive() {
-    state = _box.values.toList();
+  void _listenToFirestore() {
+    _firestore.collection('housemaids').snapshots().listen((snapshot) {
+      state = snapshot.docs.map((doc) => Housemaid.fromMap(doc.data())).toList();
+    });
   }
 
   Future<void> addHousemaid(Housemaid maid) async {
-    await _box.put(maid.id, maid);
-    _loadFromHive();
+    await _firestore.collection('housemaids').doc(maid.id).set(maid.toMap());
   }
 
   Future<void> updateHousemaid(Housemaid maid) async {
-    await _box.put(maid.id, maid);
-    _loadFromHive();
+    await _firestore.collection('housemaids').doc(maid.id).update(maid.toMap());
   }
 
   Future<void> deleteHousemaid(String id) async {
-    await _box.delete(id);
-    _loadFromHive();
+    await _firestore.collection('housemaids').doc(id).delete();
   }
 
   List<Housemaid> getBySubAgent(String subAgentId) =>
-      _box.values.where((m) => m.subAgentId == subAgentId).toList();
+      state.where((m) => m.subAgentId == subAgentId).toList();
 
-  Housemaid? getById(String id) => _box.get(id);
+  Housemaid? getById(String id) =>
+      state.firstWhere((m) => m.id == id, orElse: () => Housemaid(id: '', name: '', passportId: '', subAgentId: '', totalCommission: 0));
 }
 
 final housemaidProvider =

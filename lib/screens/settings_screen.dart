@@ -4,6 +4,8 @@ import '../providers/settings_provider.dart';
 import '../l10n/app_localizations.dart';
 import '../theme/app_theme.dart';
 import '../services/backup_service.dart';
+import '../services/migration_service.dart';
+import 'package:file_picker/file_picker.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -213,6 +215,50 @@ class SettingsScreen extends ConsumerWidget {
                           backgroundColor: Colors.red,
                         ),
                       );
+                    }
+                  }
+                },
+              ),
+              const Divider(height: 1, indent: 16),
+              ListTile(
+                leading: Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    color: Colors.orange.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Icon(Icons.sync_rounded, color: Colors.orange),
+                ),
+                title: const Text('Import & Sync',
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
+                subtitle: const Text('Migrate .bin files to Cloud Firestore',
+                    style: TextStyle(fontSize: 12, color: Colors.grey)),
+                onTap: () async {
+                  final result = await FilePicker.platform.pickFiles(
+                    type: FileType.any,
+                  );
+
+                  if (result != null && context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Migrating data...')),
+                    );
+                    try {
+                      await MigrationService().migrateData();
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('Migration Successful!'),
+                            backgroundColor: AppColors.green,
+                          ),
+                        );
+                      }
+                    } catch (e) {
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text('Migration Failed: $e'), backgroundColor: Colors.red),
+                        );
+                      }
                     }
                   }
                 },

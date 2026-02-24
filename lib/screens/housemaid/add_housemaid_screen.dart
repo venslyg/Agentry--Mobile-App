@@ -5,6 +5,7 @@ import '../../models/housemaid.dart';
 import '../../models/maid_status.dart';
 import '../../providers/housemaid_provider.dart';
 import '../../providers/sub_agent_provider.dart';
+import '../../providers/foreign_agent_provider.dart';
 import '../../providers/notification_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../theme/app_theme.dart';
@@ -30,6 +31,7 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
   late final TextEditingController _passportCtrl;
   late final TextEditingController _commissionCtrl;
   String? _selectedSubAgentId;
+  String? _selectedForeignAgentId;
   String? _selectedCountry;
   MaidStatus _status = MaidStatus.atAgency;
 
@@ -42,6 +44,7 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
     _commissionCtrl = TextEditingController(
         text: e != null ? e.totalCommission.toStringAsFixed(0) : '');
     _selectedSubAgentId = e?.subAgentId ?? widget.preselectedSubAgentId;
+    _selectedForeignAgentId = e?.foreignAgentId;
     _selectedCountry = e?.country;
     _status = e?.status ?? MaidStatus.atAgency;
   }
@@ -69,6 +72,7 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
       widget.existing!.name = _nameCtrl.text.trim();
       widget.existing!.passportId = _passportCtrl.text.trim();
       widget.existing!.subAgentId = _selectedSubAgentId!;
+      widget.existing!.foreignAgentId = _selectedForeignAgentId;
       widget.existing!.country = _selectedCountry;
       if (!_commissionLocked) {
         widget.existing!.totalCommission = commission;
@@ -90,6 +94,7 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
         totalCommission: commission,
         status: _status,
         country: _selectedCountry,
+        foreignAgentId: _selectedForeignAgentId,
       );
       await notifier.addHousemaid(newMaid);
       if (_status == MaidStatus.completed) {
@@ -141,7 +146,7 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
                       color: AppColors.primary),
                 ),
                 items: agents
-                    .map((a) => DropdownMenuItem(
+                    .map((a) => DropdownMenuItem<String>(
                           value: a.id,
                           child: Text(a.name),
                         ))
@@ -150,6 +155,24 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
                 validator: (v) =>
                     v == null ? l.tr('subAgentRequired') : null,
               ),
+              const SizedBox(height: 16),
+              Consumer(builder: (context, ref, _) {
+                final foreignAgents = ref.watch(foreignAgentProvider);
+                return DropdownButtonFormField<String>(
+                  value: _selectedForeignAgentId,
+                  decoration: const InputDecoration(
+                    labelText: 'Foreign Agent',
+                    prefixIcon: Icon(Icons.public_rounded, color: AppColors.primary),
+                  ),
+                  items: foreignAgents
+                      .map((a) => DropdownMenuItem(
+                            value: a.id,
+                            child: Text(a.name),
+                          ))
+                      .toList(),
+                  onChanged: (v) => setState(() => _selectedForeignAgentId = v),
+                );
+              }),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
                 initialValue: _selectedCountry,
@@ -167,7 +190,7 @@ class _AddHousemaidScreenState extends ConsumerState<AddHousemaidScreen> {
                   'Jordan',
                   'Other'
                 ]
-                    .map((c) => DropdownMenuItem(
+                    .map((c) => DropdownMenuItem<String>(
                           value: c,
                           child: Text(l.tr(c.toLowerCase().replaceAll(' ', ''))),
                         ))

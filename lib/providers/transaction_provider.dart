@@ -1,20 +1,20 @@
-﻿import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hive_flutter/hive_flutter.dart';
+﻿import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/transaction_model.dart';
 import '../models/housemaid.dart';
 import 'notification_service.dart';
 
 class TransactionNotifier extends StateNotifier<List<TransactionModel>> {
   TransactionNotifier() : super([]) {
-    _loadFromHive();
+    _listenToFirestore();
   }
 
-  static const String _boxName = 'transactions';
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  Box<TransactionModel> get _box => Hive.box<TransactionModel>(_boxName);
-
-  void _loadFromHive() {
-    state = _box.values.toList();
+  void _listenToFirestore() {
+    _firestore.collection('transactions').snapshots().listen((snapshot) {
+      state = snapshot.docs.map((doc) => TransactionModel.fromMap(doc.data())).toList();
+    });
   }
 
   Future<bool> addTransaction({
@@ -27,8 +27,7 @@ class TransactionNotifier extends StateNotifier<List<TransactionModel>> {
 
     if (transaction.amount > remaining + 0.001) return false;
 
-    await _box.put(transaction.id, transaction);
-    _loadFromHive();
+    await _firestore.collection('transactions').doc(transaction.id).set(transaction.toMap());
 
     final newTotalPaid = totalPaid + transaction.amount;
     final isFullyPaid = (maid.totalCommission - newTotalPaid).abs() < 0.001;
@@ -37,7 +36,7 @@ class TransactionNotifier extends StateNotifier<List<TransactionModel>> {
       await NotificationService.showNotification(
         id: maid.id.hashCode,
         title: 'Fully Paid',
-        body: "'s commission is fully paid off!",
+        body: "${maid.name}'s commission is fully paid off!",
       );
     }
 
@@ -45,12 +44,11 @@ class TransactionNotifier extends StateNotifier<List<TransactionModel>> {
   }
 
   Future<void> deleteTransaction(String id) async {
-    await _box.delete(id);
-    _loadFromHive();
+    await _firestore.collection('transactions').doc(id).delete();
   }
 
   List<TransactionModel> getByMaid(String maidId) {
-    return _box.values
+    return state
         .where((t) => t.maidId == maidId)
         .toList()
       ..sort((a, b) => b.date.compareTo(a.date));

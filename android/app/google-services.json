@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "190513198904",
+    "project_id": "agentry-project",
+    "storage_bucket": "agentry-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190513198904:android:822c36602386a3230433cd",
+        "android_client_info": {
+          "package_name": "com.example.agentry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcAsCOFsN_k_bA4E1K_HnURFIDQFwP6pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

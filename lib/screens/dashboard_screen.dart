@@ -9,6 +9,7 @@ import '../l10n/app_localizations.dart';
 import '../widgets/summary_card.dart';
 import 'sub_agent/sub_agent_list_screen.dart';
 import 'housemaid/housemaid_list_screen.dart';
+import 'foreign_agent/foreign_agent_list_screen.dart';
 import 'settings_screen.dart';
 
 class DashboardScreen extends ConsumerWidget {
@@ -145,6 +146,16 @@ class DashboardScreen extends ConsumerWidget {
               onTap: () => Navigator.push(context,
                   MaterialPageRoute(
                       builder: (_) => const HousemaidListScreen())),
+            ),
+            const SizedBox(height: 10),
+            _NavCard(
+              icon: Icons.public_rounded,
+              title: 'Foreign Agents',
+              subtitle: 'Manage agency partners',
+              color: AppColors.primary,
+              onTap: () => Navigator.push(context,
+                  MaterialPageRoute(
+                      builder: (_) => const ForeignAgentListScreen())),
             ),
             // ── Top 5 Pending Sub-Agents ────────────────────────────────
             if (top5.isNotEmpty) ...[

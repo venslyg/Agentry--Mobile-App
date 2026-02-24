@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:uuid/uuid.dart';
+import 'package:intl/intl.dart';
 import '../../models/housemaid.dart';
 import '../../models/maid_status.dart';
 import '../../models/transaction_model.dart';
@@ -317,6 +318,7 @@ class MaidDetailScreen extends ConsumerWidget {
     final amountCtrl = TextEditingController();
     final noteCtrl = TextEditingController();
     final formKey = GlobalKey<FormState>();
+    DateTime selectedDate = DateTime.now();
 
     showDialog(
       context: context,
@@ -389,6 +391,26 @@ class MaidDetailScreen extends ConsumerWidget {
                         color: AppColors.primary),
                   ),
                 ),
+                const SizedBox(height: 12),
+                StatefulBuilder(builder: (context, setDialogState) {
+                  return ListTile(
+                    contentPadding: EdgeInsets.zero,
+                    leading: const Icon(Icons.calendar_today_outlined, color: AppColors.primary),
+                    title: Text(DateFormat('dd MMMM yyyy').format(selectedDate)),
+                    subtitle: const Text('Transaction Date', style: TextStyle(fontSize: 11)),
+                    onTap: () async {
+                      final picked = await showDatePicker(
+                        context: context,
+                        initialDate: selectedDate,
+                        firstDate: DateTime(2020),
+                        lastDate: DateTime(2100),
+                      );
+                      if (picked != null) {
+                        setDialogState(() => selectedDate = picked);
+                      }
+                    },
+                  );
+                }),
               ],
             ),
           );
@@ -407,7 +429,7 @@ class MaidDetailScreen extends ConsumerWidget {
                 id: const Uuid().v4(),
                 maidId: maid.id,
                 amount: amt,
-                date: DateTime.now(),
+                date: selectedDate,
                 note: noteCtrl.text.trim(),
               );
               final ok = await ref

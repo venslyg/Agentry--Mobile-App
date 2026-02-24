@@ -22,4 +22,22 @@ class SubAgent extends HiveObject {
     required this.contact,
     this.notes = '',
   });
+
+  Map<String, dynamic> toMap() {
+    return {
+      'id': id,
+      'name': name,
+      'contact': contact,
+      'notes': notes,
+    };
+  }
+
+  factory SubAgent.fromMap(Map<String, dynamic> map) {
+    return SubAgent(
+      id: map['id'] ?? '',
+      name: map['name'] ?? '',
+      contact: map['contact'] ?? '',
+      notes: map['notes'] ?? '',
+    );
+  }
 }
