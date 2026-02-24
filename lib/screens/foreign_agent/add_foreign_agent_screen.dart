@@ -56,7 +56,30 @@ class _AddForeignAgentScreenState extends ConsumerState<AddForeignAgentScreen> {
       );
       await notifier.addForeignAgent(newAgent);
     }
-    if (mounted) Navigator.pop(context);
+    
+    if (mounted) {
+      await showDialog(
+        context: context,
+        builder: (c) => AlertDialog(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+          title: const Row(
+            children: [
+              Icon(Icons.check_circle, color: Colors.green),
+              SizedBox(width: 10),
+              Text('Success'),
+            ],
+          ),
+          content: const Text('Agent saved successfully!'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(c),
+              child: const Text('OK'),
+            ),
+          ],
+        ),
+      );
+      if (mounted) Navigator.pop(context);
+    }
   }
 
   @override

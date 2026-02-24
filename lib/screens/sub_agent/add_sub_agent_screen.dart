@@ -55,7 +55,31 @@ class _AddSubAgentScreenState extends ConsumerState<AddSubAgentScreen> {
         notes: _notesCtrl.text.trim(),
       ));
     }
-    if (mounted) Navigator.pop(context);
+
+    if (mounted) {
+      final l = AppLocalizations.of(context);
+      await showDialog(
+        context: context,
+        builder: (c) => AlertDialog(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+          title: Row(
+            children: [
+              const Icon(Icons.check_circle, color: Colors.green),
+              const SizedBox(width: 10),
+              Text(l.tr('appName')),
+            ],
+          ),
+          content: Text(l.tr('savedSuccessfully')),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(c),
+              child: const Text('OK'),
+            ),
+          ],
+        ),
+      );
+      if (mounted) Navigator.pop(context);
+    }
   }
 
   @override

@@ -97,6 +97,7 @@ class AppLocalizations {
       'backup': 'Backup',
       'backupData': 'Backup Data',
       'backupDataSubtitle': 'Export and share database files',
+      'savedSuccessfully': 'Saved successfully!',
     },
     'si': {
       'appName': 'Agentry',
@@ -182,6 +183,7 @@ class AppLocalizations {
       'backup': 'උපස්ථය',
       'backupData': 'දත්ත උපස්ථ කරන්න',
       'backupDataSubtitle': 'දත්ත සමුදාය ගොනු බෙදා ගන්න',
+      'savedSuccessfully': 'සාර්ථකව සුරකින ලදී!',
     },
     'ta': {
       'appName': 'Agentry',
@@ -267,6 +269,7 @@ class AppLocalizations {
       'backup': 'காப்புப்பிரதி',
       'backupData': 'தரவு காப்புப்பிரதி',
       'backupDataSubtitle': 'தரவுத்தளக் கோப்புகளைப் பகிரவும்',
+      'savedSuccessfully': 'வெற்றிகரமாகச் சேமிக்கப்பட்டது!',
     },
   };
 
