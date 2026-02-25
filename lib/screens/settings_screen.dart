@@ -237,26 +237,31 @@ class SettingsScreen extends ConsumerWidget {
                 onTap: () async {
                   final result = await FilePicker.platform.pickFiles(
                     type: FileType.any,
+                    allowMultiple: true,
                   );
 
-                  if (result != null && context.mounted) {
+                  if (result != null && result.paths.isNotEmpty && context.mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(content: Text('Migrating data...')),
                     );
                     try {
-                      await MigrationService().migrateData();
+                      final paths = result.paths.whereType<String>().toList();
+                      await MigrationService().migrateFiles(paths);
                       if (context.mounted) {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(
-                            content: Text('Migration Successful!'),
-                            backgroundColor: AppColors.green,
+                            content: Text('Migration completed successfully!'),
+                            backgroundColor: Colors.green,
                           ),
                         );
                       }
                     } catch (e) {
                       if (context.mounted) {
                         ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(content: Text('Migration Failed: $e'), backgroundColor: Colors.red),
+                          SnackBar(
+                            content: Text('Migration failed: $e'),
+                            backgroundColor: Colors.red,
+                          ),
                         );
                       }
                     }

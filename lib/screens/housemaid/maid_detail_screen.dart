@@ -446,7 +446,29 @@ class MaidDetailScreen extends ConsumerWidget {
                   ),
                 );
               }
-              if (ctx.mounted) Navigator.pop(ctx);
+              if (ctx.mounted) {
+                await showDialog(
+                  context: ctx,
+                  builder: (c) => AlertDialog(
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+                    title: Row(
+                      children: [
+                        const Icon(Icons.check_circle, color: Colors.green),
+                        const SizedBox(width: 10),
+                        Text(l.tr('appName')),
+                      ],
+                    ),
+                    content: const Text('Payment recorded successfully!'),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.pop(c),
+                        child: const Text('OK'),
+                      ),
+                    ],
+                  ),
+                );
+                if (ctx.mounted) Navigator.pop(ctx);
+              }
             },
             child: Text(l.tr('save')),
           ),
